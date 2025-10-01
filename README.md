@@ -82,7 +82,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 | *[AnyDesk](https://anydesk.com/en)/[RustDesk](https://rustdesk.com)* | These are Remote Desktop applications. Use this to access your desktop mode from another PC or Device that can install these apps. This is great in the absence of a keyboard and mouse, you can also send files to yourself (albeit small ones). This is really useful also if you don't wanna keep switching between monitor inputs while docked, etc. If you want real ease of use be sure to set up unattended access with a password for the remote app so you don't have to use the Deck to accept every session. |
 | *[PeaZip](https://peazip.github.io)* | Application for handling compressed files. This includes .rar, .7z, .zip, etc. This is especially useful for multipart zip files (repacks/large games) as Dolphin seems to have issues with them. Open PeaZip, click Open, find where your multipart compressed files are, and select one. It should open all of the data inside the window, then click extract and make sure you extract to a place you can find easily\! |
 
-> [\!DANGER]
+> [\!CAUTION]
 > Do not use BitTorrent or uTorrent as they have been known to be shady in the past.
 
 -----
@@ -126,7 +126,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Wait for the installation to complete.
 >   * Once done, check off all the radio boxes in the installer and close it.
 
-> [\!DANGER]
+> [\!CAUTION]
 > FG repacks default to the D drive, and DoDi repacks default to the C drive.
 
 ##### Part 2: Installation
@@ -193,7 +193,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 #### Installing games through Lutris
 
-> [\!DANGER]
+> [\!CAUTION]
 >
 >   * Make sure Lutris has access to the filesystem. This can be done through Flatseal. If your Lutris games aren't saving, this is probably why.
 
@@ -263,7 +263,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 *from [GitHub](https://github.com/Matalus/steamdeck-tips/blob/main/wiki/ssh.md)*
 
-> [\!DANGER]
+> [\!CAUTION]
 > The password set in this tutorial will be your password across all Deck operations. Remember it\!\!
 
 ##### Adding your deck storage as a drive on your PC or Mac
@@ -311,7 +311,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * The instructions for Deck \> PC should be the same.
 >   * You can go into settings and click **Automatically accept incoming transfers** if you don't want to accept every time.
 
-> [\!DANGER]
+> [\!CAUTION]
 >
 >   * If you can't find your device, go into connection settings and select your specific Network device (wifi, ethernet, etc.).
 >   * While Winpinator is often recommended, I myself had issues with it often not connecting or not finding my Deck. This was solved by using the unofficial app from the github linked above.
@@ -363,7 +363,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > Sometimes games will use either `Program Files` or `Program Files (x86)`. Check both.
 
-> [\!DANGER]
+> [\!CAUTION]
 >
 >   * In ProtonTricks, your game will show as whatever it is titled in Steam upon opening. If you never changed the name from `setup.exe` then that's what it will be named.
 >   * If you selected `C:` during an install (which you shouldn't have done\!), your game may be installed in one of these folders. If you'd love to find out why that isn't a good idea, keep it installed there and see.
@@ -402,7 +402,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > Microsoft has everything you need. Because Microsoft has been around for ages, and they have been the main OS for many business and personal users for decades, they have to keep quite the extensive catalog of legacy software on their website. This means all dependencies should be available right there on the website itself.
 
-> [\!DANGER]
+> [\!CAUTION]
 > If it wasn't explicitly clear in the previous note, do not download these from places other than the Microsoft site or Wine/ProtonTricks. While they may not mess your Steam Deck up due to it being Linux, it's just good practice to not download official and freely available things that can harm your system from shady places or people. Repackers issue the same stuff and probably get them from Microsoft themselves. Just save yourself the trouble.
 
 ##### DirectX
@@ -454,7 +454,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > 5.  **Verify Installations:**
 >       * Once installed, Protontricks will confirm the installation of each component. Double-check that each required dependency is installed.
 
-> [\!DANGER]
+> [\!CAUTION]
 > This will likely show errors, that's okay, it's batch installing different types (including incompatible ones), the right ones will still be installed. Click through any installers that may show up.
 
 #### Installing manually (with an installer, still in ProtonTricks)
@@ -474,7 +474,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > 6.  **Close all ProtonTricks windows**
 > 7.  **Test your game**
 
-> [\!DANGER]
+> [\!CAUTION]
 > If this didn't fix it, keep reading.
 
 ### Adding DLLs to Proton
@@ -523,7 +523,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * You do not need to include the `.dll` at the end.
 >   * All items listed in here will run within the prefix.
 
-> [\!DANGER]
+> [\!CAUTION]
 > If any of them give you a pop-up or an error, do not add these.
 
 -----
@@ -593,7 +593,7 @@ Individual emulators can be installed as well. A lot of them are already on the 
 > [\!NOTE]
 > As of 2024, the two main Switch emulators were taken down by the most ruthlessly litigious playing card game companies of all time. Taken down does not mean gone, though. Nothing is ever fully erased from the internet. **EVER**. With that being said, we are not going to risk having this guide taken down by linking but as of now the best and most reliable iterations are to find mirrors of **Yuzu** or **Ryujinx**. Those will have been last updated before the shutdowns. As of the time this guide was written that should not affect any of the current games that are out (at least the important ones). There is a fork of **Ryujinx** that is being maintained by *GreemDev*. The **Yuzu** forks are **Sudachi** or **Suyu**.
 
-> [\!DANGER]
+> [\!CAUTION]
 > All Switch emulators require prod.keys and firmware. We will not tell you where to find those.
 
 #### Switch Emulator Performance
@@ -634,7 +634,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 >
 >   * Most modloaders really just modify and apply new files within the game folder. This can be done manually in most cases. Don't forget to add DLLs through one of the methods listed in the DLLs part of this guide.
 
-> [\!DANGER]
+> [\!CAUTION]
 > If you still have trouble and you don't own a PC, this may be the only time we recommend installing Windows on an SD card and doing the file operations there. There are not many situations where it can't be done all through the Deck.
 
 -----
@@ -808,7 +808,7 @@ If this shows it means your crack isn't working. Make sure you copied the files 
 
 #### Are dependencies installed?
 
-> [\!DANGER]
+> [\!CAUTION]
 > If you are here, then that means you haven't been [here](https://www.google.com/search?q=%23installing-dependencies).
 
 ### Mods won't load
