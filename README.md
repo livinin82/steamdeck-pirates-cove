@@ -107,8 +107,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Limit the installer to 2GB of RAM.
 >   * Install to your preferred location for games.
 
-> [\!TIP]
-> **Method 2: Using Steam Compatibility Tool**
+> [\!TIP]**Method 2: Using Steam Compatibility Tool**
 >
 >   * Switch your Steam Deck to desktop mode (in the Power settings menu).
 >   * Locate the downloaded game and the `setup.exe` file.
