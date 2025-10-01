@@ -1,15 +1,32 @@
-Of course\! I've converted your Rentry page into GitHub Flavored Markdown (GFM).
+import { remark } from "remark";
+import remarkDirective from "remark-directive";
+import remarkGithubAdmonitionsToDirectives, {
+  DEFAULT_MAPPING,
+  DirectiveName,
+  GithubAlertType,
+  type AlertTypeMapping,
+} from "remark-github-admonitions-to-directives";
 
-I made several improvements for better compatibility and readability on GitHub:
+const mapping: AlertTypeMapping = {
+  ...DEFAULT_MAPPING,
+  [GithubAlertType.IMPORTANT]: DirectiveName.WARNING,
+};
 
-  * Converted the custom title to a standard H1 heading.
-  * Replaced Rentry-specific info boxes (`!!! info`, `!!! danger`) with GitHub's modern "Alert" blockquotes.
-  * Fixed custom-sized images to render correctly on GitHub using HTML `<img>` tags.
-  * Corrected internal links to work as anchor links within the same document.
-  * Standardized headings and formatting for a clean, professional look.
+const processor = remark()
+  .use(remarkGithubAdmonitionsToDirectives, { mapping })
+  .use(remarkDirective);
 
-Here is the GFM-ready content for you to copy and paste.
+const result = processor.processSync(`
+> [!IMPORTANT]
+> content
+`);
 
+console.log(result.toString());
+
+// should output:
+// :::warning
+// content
+// :::
 -----
 
 # 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️
