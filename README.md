@@ -2,7 +2,11 @@
 
 
 
+
 ### Table of Contents
+<details>
+<summary><strong>Info About Steam Deck</strong></summary>
+
 - [Info About Steam Deck](#info-about-steam-deck)
     - [Game Mode](#game-mode)
     - [Desktop Mode](#desktop-mode)
@@ -13,7 +17,17 @@
     - [Prefixes](#prefixes)
     - [Launchers](#launchers)
     - [Decky Plugins](#decky-plugins)
+</details>
+
+<details>
+<summary><strong>Apps you NEED TO have installed</strong></summary>
+
 - [Apps you NEED TO have installed](#apps-you-need-to-have-installed)
+</details>
+
+<details>
+<summary><strong>Guides for installing games</strong></summary>
+
 - [Guides for installing games](#guides-for-installing-games)
     - [Installing games through Steam](#installing-games-through-steam)
         - [Part 1: Running the setup.exe](#part-1-running-the-setupexe)
@@ -31,6 +45,11 @@
             - [Transferring Files](#transferring-files)
         - [FTP (Slower Network Sharing, Needs an App)](#ftp-slower-network-sharing-needs-an-app)
         - [MTP (USB Sharing)](#mtp-usb-sharing)
+</details>
+
+<details>
+<summary><strong>Guides for Proton/Wine</strong></summary>
+
 - [Guides for Proton/Wine](#guides-for-protonwine)
     - [Finding Non-Steam Game Proton Folder](#finding-non-steam-game-proton-folder)
     - [Installing Dependencies](#installing-dependencies)
@@ -42,6 +61,11 @@
     - [Adding DLLs to Proton](#adding-dlls-to-proton)
         - [Steam Arguments](#steam-arguments)
         - [ProtonTricks](#protontricks)
+</details>
+
+<details>
+<summary><strong>Guides for emulators and roms</strong></summary>
+
 - [Guides for emulators and roms](#guides-for-emulators-and-roms)
     - [Emudeck](#emudeck)
         - [Installing EmuDeck](#installing-emudeck)
@@ -53,7 +77,17 @@
         - [Switch Emulator Performance](#switch-emulator-performance)
     - [BIOS, ROMs, and other files](#bios-roms-and-other-files)
     - [PC Ports](#pc-ports)
+</details>
+
+<details>
+<summary><strong>Cracks/DLC/Updates</strong></summary>
+
 - [Cracks/DLC/Updates](#cracksdlcupdates)
+</details>
+
+<details>
+<summary><strong>Common questions/Things you will encounter</strong></summary>
+
 - [Common questions/Things you will encounter](#common-questionsthings-you-will-encounter)
     - [Compressed files (.rar, .zip, .7z, etc.)](#compressed-files-rar-zip-7z-etc)
     - [ISO Files](#iso-files)
@@ -73,9 +107,21 @@
         - [Are there quotes around the target path?](#are-there-quotes-around-the-target-path)
         - [Are dependencies installed?](#are-dependencies-installed)
     - [Mods won't load](#mods-wont-load)
+</details>
+
+<details>
+<summary><strong>Other subreddits/groups</strong></summary>
+
 - [Other subreddits/groups](#other-subredditsgroups)
     - [Piracy Related](#piracy-related)
+</details>
+
+<details>
+<summary><strong>Useful Links</strong></summary>
+
 - [Useful Links](#useful-links)
+</details>
+
 
 ## Info About Steam Deck
 
