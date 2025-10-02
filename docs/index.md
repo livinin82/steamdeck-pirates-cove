@@ -1,13 +1,6 @@
 # Steam Deck Pirates' Cove
 
-This file has been moved from GUIDE.md to docs/index.md for GitHub Pages setup.
-
-<details>
-<summary>Pirates Cove Guide</summary>
-
----
-
-%TOC%
+A comprehensive guide for Steam Deck gaming, emulation, and troubleshooting.
 
 ---
 
@@ -159,4 +152,3 @@ This file has been moved from GUIDE.md to docs/index.md for GitHub Pages setup.
     - For non-Steam games, ensure Steam Input is enabled.
 
 ---
-</details>
