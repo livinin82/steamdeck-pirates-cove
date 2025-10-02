@@ -74,7 +74,7 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 
 #### Part 1: Running the setup.exe
 
-<<<<<<< HEAD
+
 **Method 1: Using Wine**
 - Right-click setup.exe and select Wine.
 - Limit the installer to 2GB of RAM.
@@ -90,30 +90,9 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 - Create a new folder called Games in `/home/deck/`.
 - Go back to Steam, click on setup.exe, and press Play.
 
-=======
->```{admonition} **Method 1: Using Wine**
->
->   * Right-click setup.exe and select Wine.
->   * Limit the installer to 2GB of RAM.
->   * Install to your preferred location for games.
-
-**Method 2: Using Steam Compatibility Tool**
->
->   * Switch your Steam Deck to desktop mode (in the Power settings menu).
->   * Locate the downloaded game and the `setup.exe` file.
->   * Right-click on `setup.exe` and click “Add to Steam”. You’ll see a small Steam icon next to your cursor to confirm this step was done correctly.
->   * Open Steam, go to your Library, and click on `setup.exe`.
->   * Locate the cog icon on the right side of the screen and click it.
->   * Go to the Compatibility section and check the box that says “Force the use of a specific compatibility tool.”
->   * Select Proton Experimental.
->   * Open Dolphin File Explorer and go to `/home/deck/`. In this path, create a new folder called `Games`.
->   * Go back to Steam, click on `setup.exe`, and press Play.
-
-> **Continued from either method:**
->
->   * Wait for the installation to complete.
->   * Once done, check off all the radio boxes in the installer and close it.
->>>>>>> 8a88c77239893506f6bb692f14fe2a468f89241b
+**Continued from either method:**
+- Wait for the installation to complete.
+- Once done, check off all the radio boxes in the installer and close it.
 
 Wait for the installation to complete. Once done, check off all the radio boxes in the installer and close it.
 
