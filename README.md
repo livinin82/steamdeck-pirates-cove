@@ -94,7 +94,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Limit the installer to 2GB of RAM.
 >   * Install to your preferred location for games.
 
-> **Method 2: Using Steam Compatibility Tool**
+**Method 2: Using Steam Compatibility Tool**
 >
 >   * Switch your Steam Deck to desktop mode (in the Power settings menu).
 >   * Locate the downloaded game and the `setup.exe` file.
@@ -133,7 +133,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 ##### Part 3: Running the Game
 
 
-> **Method 1: Using Wine**
+**Method 1: Using Wine**
 >
 >   * Once the installation is complete, go to the installation folder and locate the game’s `.exe` file (e.g., `game.exe`).
 >   * Right-click on the `game.exe`, select “Add to Steam” to add it as a non-Steam game.
@@ -145,7 +145,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Once verified, you can rename it in Steam to whatever you prefer, and then switch back to Gaming mode to play.
 
 
-> **Method 2: Using Steam Compatibility Tool**
+**Method 2: Using Steam Compatibility Tool**
 >
 >   * Once the installation is complete, go back to Steam and remove `setup.exe` (right-click \> Manage \> Remove non-Steam game).
 >   * Go to the installation folder, find the `game.exe` file, right-click on it, and add it to Steam.
@@ -413,7 +413,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 #### Installing with ProtonTricks
 
 
-> **Method 1**
+**Method 1**
 >
 >   * Click ok on the first screen with the radio button highlighted create new/default prefix
 >   * Click the radio button that says Uninstall
@@ -423,7 +423,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Verify they installed by going back to the Uninstall menu and at the bottom is will show all that is installed in the Wine Prefix
 
 
-> **Method 2**
+**Method 2**
 >
 > 1.  **Open Protontricks:** Launch Protontricks from your applications menu.
 > 2.  **Select the Game:** Protontricks will show a list of games installed on your Deck. Select the game for which you need to install dependencies.
