@@ -1,15 +1,6 @@
 # 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️
 
----
 ### Table of Contents
-- [Info About Steam Deck](#info-about-steam-deck)
-- [Apps you NEED TO have installed](#apps-you-need-to-have-installed)
-- [Guides for installing games](#guides-for-installing-games)
-- [Guides for Proton/Wine](#guides-for-protonwine)
-- [Guides for emulators and roms](#guides-for-emulators-and-roms)
-- [Cracks/DLC/Updates](#cracksdlcupdates)
-- [Common questions/Things you will encounter](#common-questionsthings-you-will-encounter)
----
 
 ## Info About Steam Deck
 
@@ -46,7 +37,6 @@ A (Wine/Proton) prefix is what makes Proton able to run a Windows app on Linux "
 Launchers are apps built for Linux that allow you to play games from other Launcher based game companies. Heroic, Bottles, and Lutris are the mainly discussed ones. These add a few more things some games may need to run efficiently or properly at all. While these are a preferred method for ease of use, keep in mind this is another layer between your game and SteamOS so at times troubleshooting it may be a little more difficult. These also usually come with Wine configuration, login support for launchers, the option to add shortcuts to Steam, and a whole slew of other features allowing you to do less tinkering and kind of just get going.
 
 ### Decky Plugins
----
 
 ## Apps you NEED TO have installed
 
