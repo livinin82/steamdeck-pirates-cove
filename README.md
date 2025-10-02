@@ -145,81 +145,125 @@ graph TD
         A[Source Game]
     end
 
-    subgraph Path 1: Install on PC
-        B["Install Game on PC"]
-    end
-    
-    subgraph Path 2: Pre-Installed
-        C["Pre-installed Game"]
-    end
+    -### Table of Contents
 
-    subgraph Path 3: Install on Deck
-        D["Install Game on SteamDeck"]
-    end
-    
-    A --> B
-    A --> C
-    A --> D
-    
-    B --> E["Transfer to Steam Deck"]
-    C --> E
-    
-    E --> F["Add Non-Steam Game"]
-    D --> F
-    
-    F --> G{"Set up Windows Environment"}
-    
-    G -- SteamOS --> H["Configure with ProtonTricks"]
-    G -- Lutris --> Z((Play Game))
-    
-    H --> Z
-```
+    <details>
+    <summary><strong>Info About Steam Deck</strong></summary>
 
-#### Installing games through Steam
+    - [Info About Steam Deck](#info-about-steam-deck)
+        - [Game Mode](#game-mode)
+        - [Desktop Mode](#desktop-mode)
+        - [Wine](#wine)
+        - [Proton](#proton)
+            - [Steam's Official Proton](#steams-official-proton)
+            - [GE-Proton](#ge-proton)
+        - [Prefixes](#prefixes)
+        - [Launchers](#launchers)
+        - [Decky Plugins](#decky-plugins)
+    </details>
 
-> [!NOTE]
-> There are a few different ways to get cracked games on your system. They all for the most part end in the same results. Some games require one method over another. Part of piracy is experimenting and finding what works best. If you find a better method for a specific game let us know in the subreddit!
+    <details>
+    <summary><strong>Apps you NEED TO have installed</strong></summary>
 
-If your game is already in a preinstalled state, skip to **Part 3**.
+    - [Apps you NEED TO have installed](#apps-you-need-to-have-installed)
+    </details>
 
-#### Part 1: Running the setup.exe
+    <details>
+    <summary><strong>Guides for installing games</strong></summary>
 
+    - [Guides for installing games](#guides-for-installing-games)
+        - [Installing games through Steam](#installing-games-through-steam)
+            - [Part 1: Running the setup.exe](#part-1-running-the-setupexe)
+            - [Part 2: Installation](#part-2-installation)
+            - [Part 3: Running the Game](#part-3-running-the-game)
+        - [Installing games through Lutris](#installing-games-through-lutris)
+        - [Installing Games through other launchers](#installing-games-through-other-launchers)
+        - [Transferring Installed Games from PC](#transferring-installed-games-from-pc)
+            - [SSH (Network File Sharing)](#ssh-network-file-sharing)
+                - [Setting up SSHD](#setting-up-sshd)
+                - [Adding your deck storage as a drive on your PC or Mac](#adding-your-deck-storage-as-a-drive-on-your-pc-or-mac)
+            - [Warpinator (Still Network, Needs an App)](#warpinator-still-network-needs-an-app)
+                - [On Your Deck](#on-your-deck)
+                - [On your PC](#on-your-pc)
+                - [Transferring Files](#transferring-files)
+            - [FTP (Slower Network Sharing, Needs an App)](#ftp-slower-network-sharing-needs-an-app)
+            - [MTP (USB Sharing)](#mtp-usb-sharing)
+    </details>
 
+    <details>
+    <summary><strong>Guides for Proton/Wine</strong></summary>
 
-<table>
-<tr>
-<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
-<strong>Method 1: Using Wine</strong>
-<ul>
-    <li>Right-click setup.exe and select Wine.</li>
-    <li>Limit the installer to 2GB of RAM.</li>
-    <li>Install to your preferred location for games.</li>
-</ul>
-</td>
-</tr>
-</table>
+    - [Guides for Proton/Wine](#guides-for-protonwine)
+        - [Finding Non-Steam Game Proton Folder](#finding-non-steam-game-proton-folder)
+        - [Installing Dependencies](#installing-dependencies)
+            - [What are dependencies?](#what-are-dependencies)
+            - [How to find what dependencies are needed for your game.](#how-to-find-what-dependencies-are-needed-for-your-game)
+            - [Where to get dependencies.](#where-to-get-dependencies)
+            - [Installing with ProtonTricks](#installing-with-protontricks)
+            - [Installing manually (with an installer, still in ProtonTricks)](#installing-manually-with-an-installer-still-in-protontricks)
+        - [Adding DLLs to Proton](#adding-dlls-to-proton)
+            - [Steam Arguments](#steam-arguments)
+            - [ProtonTricks](#protontricks)
+    </details>
 
-<table>
-<tr>
-<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
-<strong>Method 2: Using Steam Compatibility Tool</strong>
-<ul>
-    <li>Switch your Steam Deck to desktop mode (in the Power settings menu).</li>
-    <li>Locate the downloaded game and the setup.exe file.</li>
-    <li>Right-click on setup.exe and click “Add to Steam”.</li>
-    <li>Open Steam, go to your Library, and click on setup.exe.</li>
-    <li>Go to the Compatibility section and check the box for “Force the use of a specific compatibility tool.”</li>
-    <li>Select Proton Experimental.</li>
-    <li>Create a new folder called Games in <code>/home/deck/</code>.</li>
-    <li>Go back to Steam, click on setup.exe, and press Play.</li>
-</ul>
-</td>
-</tr>
-</table>
+    <details>
+    <summary><strong>Guides for emulators and roms</strong></summary>
 
-<table>
-<tr>
-<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+    - [Guides for emulators and roms](#guides-for-emulators-and-roms)
+        - [Emudeck](#emudeck)
+            - [Installing EmuDeck](#installing-emudeck)
+        - [RetroDeck](#retrodeck)
+            - [Installing RetroDeck](#installing-retrodeck)
+        - [Individual emulators](#individual-emulators)
+        - [Switch Emulation](#switch-emulation)
+            - [Recommended Emulators](#recommended-emulators)
+            - [Switch Emulator Performance](#switch-emulator-performance)
+        - [BIOS, ROMs, and other files](#bios-roms-and-other-files)
+        - [PC Ports](#pc-ports)
+    </details>
+
+    <details>
+    <summary><strong>Cracks/DLC/Updates</strong></summary>
+
+    - [Cracks/DLC/Updates](#cracksdlcupdates)
+    </details>
+
+    <details>
+    <summary><strong>Common questions/Things you will encounter</strong></summary>
+
+    - [Common questions/Things you will encounter](#common-questionsthings-you-will-encounter)
+        - [Compressed files (.rar, .zip, .7z, etc.)](#compressed-files-rar-zip-7z-etc)
+        - [ISO Files](#iso-files)
+        - [Install Locations](#install-locations)
+        - [Can't see external HDD/SD Card/home Folder](#cant-see-external-hddsd-cardhome-folder)
+            - [Flatseal](#flatseal)
+        - [Can't find save files.](#cant-find-save-files)
+        - [How do I move/backup my save files?](#how-do-i-movebackup-my-save-files)
+        - [Controller not working](#controller-not-working)
+            - [Steam Input](#steam-input)
+            - [Finding Community Layouts](#finding-community-layouts)
+        - [Game opens steam](#game-opens-steam)
+        - [No licenses](#no-licenses)
+        - [Games suddenly won't open or close](#games-suddenly-wont-open-or-close)
+        - [Game tries to load and immediately stops](#game-tries-to-load-and-immediately-stops)
+            - [Is Proton Enabled?](#is-proton-enabled)
+            - [Are there quotes around the target path?](#are-there-quotes-around-the-target-path)
+            - [Are dependencies installed?](#are-dependencies-installed)
+        - [Mods won't load](#mods-wont-load)
+    </details>
+
+    <details>
+    <summary><strong>Other subreddits/groups</strong></summary>
+
+    - [Other subreddits/groups](#other-subredditsgroups)
+        - [Piracy Related](#piracy-related)
+    </details>
+
+    <details>
+    <summary><strong>Useful Links</strong></summary>
+
+    - [Useful Links](#useful-links)
+    </details>
 <strong>Continued from either method:</strong>
 <ul>
     <li>Wait for the installation to complete.</li>
