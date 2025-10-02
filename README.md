@@ -1,8 +1,6 @@
 
 # <div align="center">🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️</div>
 
-### Table of Contents
-
 ## Info About Steam Deck
 
 ### Game Mode
