@@ -1,6 +1,21 @@
 # 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️
 
+
 ### Table of Contents
+- [Info About Steam Deck](#info-about-steam-deck)
+    - [Game Mode](#game-mode)
+    - [Desktop Mode](#desktop-mode)
+    - [Wine](#wine)
+    - [Proton](#proton)
+    - [Prefixes](#prefixes)
+    - [Launchers](#launchers)
+    - [Decky Plugins](#decky-plugins)
+- [Apps you NEED TO have installed](#apps-you-need-to-have-installed)
+- [Guides for installing games](#guides-for-installing-games)
+- [Guides for Proton/Wine](#guides-for-protonwine)
+- [Guides for emulators and roms](#guides-for-emulators-and-roms)
+- [Cracks/DLC/Updates](#cracksdlcupdates)
+- [Common questions/Things you will encounter](#common-questionsthings-you-will-encounter)
 
 ## Info About Steam Deck
 
