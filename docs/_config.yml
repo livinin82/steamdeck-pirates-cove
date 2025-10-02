@@ -1,3 +1,33 @@
-theme: minima
+remote_theme: just-the-docs/just-the-docs
+
 title: "Steam Deck Pirates' Cove"
 description: "A comprehensive guide for Steam Deck gaming, emulation, and troubleshooting"
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
+# Logo
+logo: "/assets/images/pirate-flag.png"
+
+# Enable search
+search_enabled: true
+
+# Navigation structure
+nav_sort: case_insensitive
+
+# Heading anchors
+heading_anchors: true
+
+# Footer content
+footer_content: "Steam Deck Pirates' Cove - A community-driven guide"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Mermaid diagrams
+mermaid:
+  version: "9.1.3"
+
+plugins:
+  - jekyll-seo-tag
