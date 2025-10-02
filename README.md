@@ -37,8 +37,6 @@ A (Wine/Proton) prefix is what makes Proton able to run a Windows app on Linux "
 Launchers are apps built for Linux that allow you to play games from other Launcher based game companies. Heroic, Bottles, and Lutris are the mainly discussed ones. These add a few more things some games may need to run efficiently or properly at all. While these are a preferred method for ease of use, keep in mind this is another layer between your game and SteamOS so at times troubleshooting it may be a little more difficult. These also usually come with Wine configuration, login support for launchers, the option to add shortcuts to Steam, and a whole slew of other features allowing you to do less tinkering and kind of just get going.
 
 ### Decky Plugins
-[//]: (Talk about them breaking with each update and being the cause of issues at times)
-
 ---
 
 ## Apps you NEED TO have installed
@@ -59,7 +57,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 | *[AnyDesk](https://anydesk.com/en)/[RustDesk](https://rustdesk.com)* | These are Remote Desktop applications. Use this to access your desktop mode from another PC or Device that can install these apps. This is great in the absence of a keyboard and mouse, you can also send files to yourself (albeit small ones). This is really useful also if you don't wanna keep switching between monitor inputs while docked, etc. If you want real ease of use be sure to set up unattended access with a password for the remote app so you don't have to use the Deck to accept every session. |
 | *[PeaZip](https://peazip.github.io)* | Application for handling compressed files. This includes .rar, .7z, .zip, etc. This is especially useful for multipart zip files (repacks/large games) as Dolphin seems to have issues with them. Open PeaZip, click Open, find where your multipart compressed files are, and select one. It should open all of the data inside the window, then click extract and make sure you extract to a place you can find easily! |
 
-> [!DANGER]
+> [!CAUTION]
 > Do not use BitTorrent or uTorrent as they have been known to be shady in the past.
 
 ---
@@ -119,7 +117,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 </tr>
 </table>
 
-> [!DANGER]
+> [!CAUTION]
 > FG repacks default to the D drive, and DoDi repacks default to the C drive.
 
 ##### Part 2: Installation
@@ -211,7 +209,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ### Installing games through Lutris
 
-> [!DANGER]
+> [!CAUTION]
 > Make sure Lutris has access to the filesystem. This can be done through Flatseal.
 > If your Lutris games aren't saving, this is probably why.
 
@@ -290,7 +288,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 *from [GitHub](https://github.com/Matalus/steamdeck-tips/blob/main/wiki/ssh.md)*
 
-> [!DANGER]
+> [!CAUTION]
 > The password set in this tutorial will be your password across all Deck operations. Remember it!!
 
 ##### Adding your deck storage as a drive on your PC or Mac
@@ -353,7 +351,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > The instructions for Deck>PC should be the same.
 > You can go into settings and click **Automatically accept incoming transfers** if you don't want to accept every time.
 
-> [!DANGER]
+> [!CAUTION]
 > If you can't find your device, go into connection settings and select your specific Network device (wifi, ethernet, etc.).
 >
 > While Winpinator is often recommended, I myself had issues with it often not connecting or not finding my Deck. This was solved by using the unofficial app from the github linked above.
@@ -411,7 +409,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [!NOTE]
 > Sometimes games will use either `Program Files` or `Program Files (x86)`. Check both.
 
-> [!DANGER]
+> [!CAUTION]
 > In ProtonTricks, your game will show as whatever it is titled in Steam upon opening. If you never changed the name from `setup.exe` then that's what it will be named.
 >
 > If you selected `C:` during an install (which you shouldn't have done!), your game may be installed in one of these folders.
@@ -420,8 +418,6 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 ![Proton Folder Number](https://i.imgur.com/SCZqbXL.png)
 
 ### Installing Dependencies
-[//]:(Put a guide for how to find which dependencies are needed and where to download them, and explain what they are)
-
 #### What are dependencies?
 
 > [!NOTE]
@@ -462,7 +458,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > Microsoft has everything you need.
 > Because Microsoft has been around for ages, and they have been the main OS for many business and personal users for decades, they have to keep quite the extensive catalog of legacy software on their website. This means all dependencies should be available right there on the website itself.
 
-> [!DANGER]
+> [!CAUTION]
 > If it wasn't explicitly clear in the previous note, do not download these from places other than the Microsoft site or Wine/ProtonTricks. While they may not mess your Steam Deck up due to it being Linux, it's just good practice to not download official and freely available things that can harm your system from shady places or people. Repackers issue the same stuff and probably get them from Microsoft themselves. Just save yourself the trouble.
 
 ##### DirectX
@@ -527,7 +523,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 </tr>
 </table>
 
-> [!DANGER]
+> [!CAUTION]
 > This will likely show errors, that's okay, it's batch installing different types (including incompatible ones), the right ones will still be installed. Click through any installers that may show up.
 
 #### Installing manually (with an installer, still in ProtonTricks)
@@ -552,7 +548,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 </tr>
 </table>
 
-> [!DANGER]
+> [!CAUTION]
 > If this didn't fix it, keep reading.
 
 ### Adding DLLs to Proton
@@ -613,7 +609,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > You do not need to include the `.dll` at the end.
 > All items listed in here will run within the prefix.
 
-> [!DANGER]
+> [!CAUTION]
 > If any of them give you a pop-up or an error, do not add these.
 
 ---
@@ -698,7 +694,7 @@ Individual emulators can be installed as well. A lot of them are already on the 
 > [!NOTE]
 > As of 2024, the two main Switch emulators were taken down by the most ruthlessly litigious playing card game companies of all time. Taken down does not mean gone, though. Nothing is ever fully erased from the internet. **EVER**. With that being said, we are not going to risk having this guide taken down by linking but as of now the best and most reliable iterations are to find mirrors of **Yuzu** or **Ryujinx**. Those will have been last updated before the shutdowns. As of the time this guide was written that should not affect any of the current games that are out (at least the important ones). There is a fork of **Ryujinx** that is being maintained by *GreemDev*. The **Yuzu** forks are **Sudachi** or **Suyu**.
 
-> [!DANGER]
+> [!CAUTION]
 > All Switch emulators require prod.keys and firmware.
 > We will not tell you where to find those.
 
@@ -714,8 +710,6 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 ---
 
 ## Cracks/DLC/Updates
-[//]: (Maybe expand on each individual one)
-
 > [!NOTE]
 > Since a lot of cracks and updates are made for PC, it is often recommended to do whatever patching of files is required on your PC, then to transfer the fully patched game over to your Deck. This certainly applies in situations with CreamAPI, Goldberg Steam Emulator, and any cracked game updates. If you don't have the means to do that, or you like to do things in hard mode, then here is how you'd do that.
 >
@@ -742,7 +736,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 > Most modloaders really just modify and apply new files within the game folder. This can be done manually in most cases.
 > Don't forget to add DLLs through one of the methods listed in the DLLs part of this guide.
 
-> [!DANGER]
+> [!CAUTION]
 > If you still have trouble and you don't own a PC, this may be the only time we recommend installing Windows on an SD card and doing the file operations there. There are not many situations where it can't be done all through the Deck.
 
 ---
@@ -799,8 +793,6 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 </table>
 
 ### Install Locations
-[//]:(Add images to show each possibility, including drive letters, folder structure, C drive, etc)
-
 > [!NOTE]
 > When installing games on PC, common practice is for it to install to the `C:` drive.
 > This is put in place because the `C:` drive is usually the main drive that Windows lives and operates through. Since we are emulating the PC, the `C:` drive isn't really a drive at all. It's a folder inside of a prefix usually named `drive_c`. The nature of prefix is to emulate a Windows environment with the bare minimum. So when you work within this environment, it is limited. It is always recommended to install in a folder outside of the prefix that you can get a hold of easily.
@@ -959,7 +951,7 @@ If this shows it means your crack isn't working. Make sure you copied the files 
 > For example: `/home/deck/Games/Tomb Raider` would not work properly. So in the **Target Path** in your game's settings has quotes around it. This will make Linux treat it as one path by contatining it in quotes and specifying every character (including spaces). You need to type it as `"/home/deck/Games/Tomb Raider"`
 
 #### Are dependencies installed?
-> [!DANGER]
+> [!CAUTION]
 > If you are here, then that means you haven't been <a href="#installing-dependencies">here</a>.
 
 ### Mods won't load
@@ -968,8 +960,6 @@ If this shows it means your crack isn't working. Make sure you copied the files 
 > * A lot of times, mods use/alter/interact with DLL files. Try adding them to the prefix per this [section](#adding-dlls-to-proton).
 > * In some instances, there is a Linux version of the mod application you're trying to use, be sure to check into the source of the mod loader.
 > * Check this [guide](https://www.reddit.com/r/SteamDeckTricks/comments/xnmm32/game_modding_guide/) from [r/SteamDeckTricks](https://www.reddit.com/r/SteamDeckTricks/).
-
-[//]:(Maybe copy the guide here.)
 
 ---
 
