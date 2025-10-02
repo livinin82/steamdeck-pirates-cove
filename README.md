@@ -1,6 +1,15 @@
 # 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️
 
 ---
+### Table of Contents
+- [Info About Steam Deck](#info-about-steam-deck)
+- [Apps you NEED TO have installed](#apps-you-need-to-have-installed)
+- [Guides for installing games](#guides-for-installing-games)
+- [Guides for Proton/Wine](#guides-for-protonwine)
+- [Guides for emulators and roms](#guides-for-emulators-and-roms)
+- [Cracks/DLC/Updates](#cracksdlcupdates)
+- [Common questions/Things you will encounter](#common-questionsthings-you-will-encounter)
+---
 
 ## Info About Steam Deck
 
@@ -160,7 +169,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
     <li>Open Steam, find <code>game.exe</code>, and go to the Compatibility section.</li>
     <li>Set the compatibility to Proton Experimental.</li>
     <li>Launch the game by pressing Play.</li>
-    <li>If it shows an error or doesn’t run: Refer to the dependencies guide for help (Dependencies Guide).</li>
+    <li>If it shows an error or doesn’t run: Refer to the dependencies guide for help ([Dependencies Guide](#installing-dependencies)).</li>
     <li>Run the game in Desktop mode to verify it works correctly.</li>
     <li>Once verified, you can rename it in Steam to whatever you prefer, and then switch back to Gaming mode to play.</li>
 </ul>
@@ -185,7 +194,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 </table>
 
 > [!NOTE]
-> If it shows an error or doesn’t run: Either the Proton version is incorrect (try different ones) or there’s a missing dependency. If it's the latter, refer to a dependencies guide (Dependencies Guide).
+> If it shows an error or doesn’t run: Either the Proton version is incorrect (try different ones) or there’s a missing dependency. If it's the latter, refer to a dependencies guide ([Dependencies Guide](#installing-dependencies)).
 
 <table>
 <tr>
