@@ -145,204 +145,129 @@ graph TD
         A[Source Game]
     end
 
-    -### Table of Contents
-
-    <details>
-    <summary><strong>Info About Steam Deck</strong></summary>
-
-    - [Info About Steam Deck](#info-about-steam-deck)
-        - [Game Mode](#game-mode)
-        - [Desktop Mode](#desktop-mode)
-        - [Wine](#wine)
-        - [Proton](#proton)
-            - [Steam's Official Proton](#steams-official-proton)
-            - [GE-Proton](#ge-proton)
-        - [Prefixes](#prefixes)
-        - [Launchers](#launchers)
-        - [Decky Plugins](#decky-plugins)
-    </details>
-
-    <details>
-    <summary><strong>Apps you NEED TO have installed</strong></summary>
-
-    - [Apps you NEED TO have installed](#apps-you-need-to-have-installed)
-    </details>
-
-    <details>
-    <summary><strong>Guides for installing games</strong></summary>
-
-    - [Guides for installing games](#guides-for-installing-games)
-        - [Installing games through Steam](#installing-games-through-steam)
-            - [Part 1: Running the setup.exe](#part-1-running-the-setupexe)
-            - [Part 2: Installation](#part-2-installation)
-            - [Part 3: Running the Game](#part-3-running-the-game)
-        - [Installing games through Lutris](#installing-games-through-lutris)
-        - [Installing Games through other launchers](#installing-games-through-other-launchers)
-        - [Transferring Installed Games from PC](#transferring-installed-games-from-pc)
-            - [SSH (Network File Sharing)](#ssh-network-file-sharing)
-                - [Setting up SSHD](#setting-up-sshd)
-                - [Adding your deck storage as a drive on your PC or Mac](#adding-your-deck-storage-as-a-drive-on-your-pc-or-mac)
-            - [Warpinator (Still Network, Needs an App)](#warpinator-still-network-needs-an-app)
-                - [On Your Deck](#on-your-deck)
-                - [On your PC](#on-your-pc)
-                - [Transferring Files](#transferring-files)
-            - [FTP (Slower Network Sharing, Needs an App)](#ftp-slower-network-sharing-needs-an-app)
-            - [MTP (USB Sharing)](#mtp-usb-sharing)
-    </details>
-
-    <details>
-    <summary><strong>Guides for Proton/Wine</strong></summary>
-
-    - [Guides for Proton/Wine](#guides-for-protonwine)
-        - [Finding Non-Steam Game Proton Folder](#finding-non-steam-game-proton-folder)
-        - [Installing Dependencies](#installing-dependencies)
-            - [What are dependencies?](#what-are-dependencies)
-            - [How to find what dependencies are needed for your game.](#how-to-find-what-dependencies-are-needed-for-your-game)
-            - [Where to get dependencies.](#where-to-get-dependencies)
-            - [Installing with ProtonTricks](#installing-with-protontricks)
-            - [Installing manually (with an installer, still in ProtonTricks)](#installing-manually-with-an-installer-still-in-protontricks)
-        - [Adding DLLs to Proton](#adding-dlls-to-proton)
-            - [Steam Arguments](#steam-arguments)
-            - [ProtonTricks](#protontricks)
-    </details>
-
-    <details>
-    <summary><strong>Guides for emulators and roms</strong></summary>
-
-    - [Guides for emulators and roms](#guides-for-emulators-and-roms)
-        - [Emudeck](#emudeck)
-            - [Installing EmuDeck](#installing-emudeck)
-        - [RetroDeck](#retrodeck)
-            - [Installing RetroDeck](#installing-retrodeck)
-        - [Individual emulators](#individual-emulators)
-        - [Switch Emulation](#switch-emulation)
-            - [Recommended Emulators](#recommended-emulators)
-            - [Switch Emulator Performance](#switch-emulator-performance)
-        - [BIOS, ROMs, and other files](#bios-roms-and-other-files)
-        - [PC Ports](#pc-ports)
-    </details>
-
-    <details>
-    <summary><strong>Cracks/DLC/Updates</strong></summary>
-
-    - [Cracks/DLC/Updates](#cracksdlcupdates)
-    </details>
-
-    <details>
-    <summary><strong>Common questions/Things you will encounter</strong></summary>
-
-    - [Common questions/Things you will encounter](#common-questionsthings-you-will-encounter)
-        - [Compressed files (.rar, .zip, .7z, etc.)](#compressed-files-rar-zip-7z-etc)
-        - [ISO Files](#iso-files)
-        - [Install Locations](#install-locations)
-        - [Can't see external HDD/SD Card/home Folder](#cant-see-external-hddsd-cardhome-folder)
-            - [Flatseal](#flatseal)
-        - [Can't find save files.](#cant-find-save-files)
-        - [How do I move/backup my save files?](#how-do-i-movebackup-my-save-files)
-        - [Controller not working](#controller-not-working)
-            - [Steam Input](#steam-input)
-            - [Finding Community Layouts](#finding-community-layouts)
-        - [Game opens steam](#game-opens-steam)
-        - [No licenses](#no-licenses)
-        - [Games suddenly won't open or close](#games-suddenly-wont-open-or-close)
-        - [Game tries to load and immediately stops](#game-tries-to-load-and-immediately-stops)
-            - [Is Proton Enabled?](#is-proton-enabled)
-            - [Are there quotes around the target path?](#are-there-quotes-around-the-target-path)
-            - [Are dependencies installed?](#are-dependencies-installed)
-        - [Mods won't load](#mods-wont-load)
-    </details>
-
-    <details>
-    <summary><strong>Other subreddits/groups</strong></summary>
-
-    - [Other subreddits/groups](#other-subredditsgroups)
-        - [Piracy Related](#piracy-related)
-    </details>
-
-    <details>
-    <summary><strong>Useful Links</strong></summary>
-
-    - [Useful Links](#useful-links)
-    </details>
 <strong>Continued from either method:</strong>
 <ul>
     <li>Wait for the installation to complete.</li>
     <li>Once done, check off all the radio boxes in the installer and close it.</li>
-</ul>
-</td>
-</tr>
-</table>
 
-**Note:** FG repacks default to the D drive, and DoDi repacks default to the C drive.
+### Table of Contents
+<details>
+<summary><strong>Info About Steam Deck</strong></summary>
 
-##### Part 2: Installation
+- [Info About Steam Deck](#info-about-steam-deck)
+    - [Game Mode](#game-mode)
+    - [Desktop Mode](#desktop-mode)
+    - [Wine](#wine)
+    - [Proton](#proton)
+        - [Steam's Official Proton](#steams-official-proton)
+        - [GE-Proton](#ge-proton)
+    - [Prefixes](#prefixes)
+    - [Launchers](#launchers)
+    - [Decky Plugins](#decky-plugins)
+</details>
 
-> [!WARNING]
-> Be patient. Sometimes, it can take a while for the installer to appear.
+<details>
+<summary><strong>Apps you NEED TO have installed</strong></summary>
 
-<table>
-<tr>
-<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
-<ul>
-    <li>Once it does, select your preferred language (e.g., English) and click Next.</li>
-    <li>Follow the installer steps. Make sure to:
-        <ul>
-            <li>Set the installation path to the <code>Games</code> folder in the Z drive (or your microSD card if installing there).</li>
-            <li>Untick any options for additional installations (like DirectX and Visual C++).</li>
-        </ul>
-    </li>
-    <li>Start the installation.
-        <ul>
-            <li>Optional step: Limit the installer to 2GB of RAM for installation stability.</li>
-        </ul>
-    </li>
-</ul>
-</td>
-</tr>
-</table>
+- [Apps you NEED TO have installed](#apps-you-need-to-have-installed)
+</details>
 
-> [!NOTE]
-> Don’t worry if the installation is slow, especially for repacks. This is normal and can take hours depending on game size and compression.
+<details>
+<summary><strong>Guides for installing games</strong></summary>
 
-##### Part 3: Running the Game
-<table>
-<tr>
-<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
-<strong>Method 1: Using Wine</strong>
-<ul>
-    <li>Once the installation is complete, go to the installation folder and locate the game’s .exe file (e.g., <code>game.exe</code>).</li>
-    <li>Right-click on the <code>game.exe</code>, select “Add to Steam” to add it as a non-Steam game.</li>
-    <li>Open Steam, find <code>game.exe</code>, and go to the Compatibility section.</li>
-    <li>Set the compatibility to Proton Experimental.</li>
-    <li>Launch the game by pressing Play.</li>
-    <li>If it shows an error or doesn’t run: Refer to the dependencies guide for help ([Dependencies Guide](#installing-dependencies)).</li>
-    <li>Run the game in Desktop mode to verify it works correctly.</li>
-    <li>Once verified, you can rename it in Steam to whatever you prefer, and then switch back to Gaming mode to play.</li>
-</ul>
-</td>
-</tr>
-</table>
-<table>
-<tr>
-<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
-<strong>Method 2: Using Steam Compatibility Tool</strong>
-<ul>
-    <li>Once the installation is complete, go back to Steam and remove <code>setup.exe</code> (right-click > Manage > Remove non-Steam game).</li>
-    <li>Go to the installation folder, find the <code>game.exe</code> file, right-click on it, and add it to Steam.</li>
-    <li>Open Steam, find <code>game.exe</code>, and go to the Compatibility section. Repeat steps 5-7 from Part 1 (set the compatibility to Proton Experimental).</li>
-    <li>Launch the game by pressing Play.</li>
-    <li>Run the game in Desktop mode to make sure it works correctly.</li>
-    <li>Exit the game. You can rename it in Steam to whatever you prefer (otherwise, it’ll show as <code>game.exe</code> in gaming mode).</li>
-    <li>Switch back to Gaming mode and enjoy your game!</li>
-</ul>
-</td>
-</tr>
-</table>
+- [Guides for installing games](#guides-for-installing-games)
+    - [Installing games through Steam](#installing-games-through-steam)
+        - [Part 1: Running the setup.exe](#part-1-running-the-setupexe)
+        - [Part 2: Installation](#part-2-installation)
+        - [Part 3: Running the Game](#part-3-running-the-game)
+    - [Installing games through Lutris](#installing-games-through-lutris)
+    - [Installing Games through other launchers](#installing-games-through-other-launchers)
+    - [Transferring Installed Games from PC](#transferring-installed-games-from-pc)
+        - [SSH (Network File Sharing)](#ssh-network-file-sharing)
+            - [Setting up SSHD](#setting-up-sshd)
+            - [Adding your deck storage as a drive on your PC or Mac](#adding-your-deck-storage-as-a-drive-on-your-pc-or-mac)
+        - [Warpinator (Still Network, Needs an App)](#warpinator-still-network-needs-an-app)
+            - [On Your Deck](#on-your-deck)
+            - [On your PC](#on-your-pc)
+            - [Transferring Files](#transferring-files)
+        - [FTP (Slower Network Sharing, Needs an App)](#ftp-slower-network-sharing-needs-an-app)
+        - [MTP (USB Sharing)](#mtp-usb-sharing)
+</details>
 
-> [!NOTE]
-> If it shows an error or doesn’t run: Either the Proton version is incorrect (try different ones) or there’s a missing dependency. If it's the latter, refer to a dependencies guide ([Dependencies Guide](#installing-dependencies)).
+<details>
+<summary><strong>Guides for Proton/Wine</strong></summary>
 
-<table>
+- [Guides for Proton/Wine](#guides-for-protonwine)
+    - [Finding Non-Steam Game Proton Folder](#finding-non-steam-game-proton-folder)
+    - [Installing Dependencies](#installing-dependencies)
+        - [What are dependencies?](#what-are-dependencies)
+        - [How to find what dependencies are needed for your game.](#how-to-find-what-dependencies-are-needed-for-your-game)
+        - [Where to get dependencies.](#where-to-get-dependencies)
+        - [Installing with ProtonTricks](#installing-with-protontricks)
+        - [Installing manually (with an installer, still in ProtonTricks)](#installing-manually-with-an-installer-still-in-protontricks)
+    - [Adding DLLs to Proton](#adding-dlls-to-proton)
+        - [Steam Arguments](#steam-arguments)
+        - [ProtonTricks](#protontricks)
+</details>
+
+<details>
+<summary><strong>Guides for emulators and roms</strong></summary>
+
+- [Guides for emulators and roms](#guides-for-emulators-and-roms)
+    - [Emudeck](#emudeck)
+        - [Installing EmuDeck](#installing-emudeck)
+    - [RetroDeck](#retrodeck)
+        - [Installing RetroDeck](#installing-retrodeck)
+    - [Individual emulators](#individual-emulators)
+    - [Switch Emulation](#switch-emulation)
+        - [Recommended Emulators](#recommended-emulators)
+        - [Switch Emulator Performance](#switch-emulator-performance)
+    - [BIOS, ROMs, and other files](#bios-roms-and-other-files)
+    - [PC Ports](#pc-ports)
+</details>
+
+<details>
+<summary><strong>Cracks/DLC/Updates</strong></summary>
+
+- [Cracks/DLC/Updates](#cracksdlcupdates)
+</details>
+
+<details>
+<summary><strong>Common questions/Things you will encounter</strong></summary>
+
+- [Common questions/Things you will encounter](#common-questionsthings-you-will-encounter)
+    - [Compressed files (.rar, .zip, .7z, etc.)](#compressed-files-rar-zip-7z-etc)
+    - [ISO Files](#iso-files)
+    - [Install Locations](#install-locations)
+    - [Can't see external HDD/SD Card/home Folder](#cant-see-external-hddsd-cardhome-folder)
+        - [Flatseal](#flatseal)
+    - [Can't find save files.](#cant-find-save-files)
+    - [How do I move/backup my save files?](#how-do-i-movebackup-my-save-files)
+    - [Controller not working](#controller-not-working)
+        - [Steam Input](#steam-input)
+        - [Finding Community Layouts](#finding-community-layouts)
+    - [Game opens steam](#game-opens-steam)
+    - [No licenses](#no-licenses)
+    - [Games suddenly won't open or close](#games-suddenly-wont-open-or-close)
+    - [Game tries to load and immediately stops](#game-tries-to-load-and-immediately-stops)
+        - [Is Proton Enabled?](#is-proton-enabled)
+        - [Are there quotes around the target path?](#are-there-quotes-around-the-target-path)
+        - [Are dependencies installed?](#are-dependencies-installed)
+    - [Mods won't load](#mods-wont-load)
+</details>
+
+<details>
+<summary><strong>Other subreddits/groups</strong></summary>
+
+- [Other subreddits/groups](#other-subredditsgroups)
+    - [Piracy Related](#piracy-related)
+</details>
+
+<details>
+<summary><strong>Useful Links</strong></summary>
+
+- [Useful Links](#useful-links)
+</details>
 <tr>
 <td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
 <strong>Additional Notes</strong>
