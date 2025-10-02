@@ -77,29 +77,47 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > If your game is already in a preinstalled state, skip to **Part 3**
 
 ##### Part 1: Running the setup.exe
-
-> [!TIP]
-> **Method 1: Using Wine**
-> * Right-click setup.exe and select Wine.
-> * Limit the installer to 2GB of RAM.
-> * Install to your preferred location for games.
-
-> [!TIP]
-> **Method 2: Using Steam Compatibility Tool**
-> * Switch your Steam Deck to desktop mode (in the Power settings menu).
-> * Locate the downloaded game and the `setup.exe` file.
-> * Right-click on `setup.exe` and click “Add to Steam”. You’ll see a small Steam icon next to your cursor to confirm this step was done correctly.
-> * Open Steam, go to your Library, and click on `setup.exe`.
-> * Locate the cog icon on the right side of the screen and click it.
-> * Go to the Compatibility section and check the box that says “Force the use of a specific compatibility tool.”
-> * Select Proton Experimental.
-> * Open Dolphin File Explorer and go to `/home/deck/`. In this path, create a new folder called `Games`.
-> * Go back to Steam, click on `setup.exe`, and press Play.
-
-> [!TIP]
-> **Continued from either method:**
-> * Wait for the installation to complete.
-> * Once done, check off all the radio boxes in the installer and close it.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 1: Using Wine</strong>
+<ul>
+    <li>Right-click setup.exe and select Wine.</li>
+    <li>Limit the installer to 2GB of RAM.</li>
+    <li>Install to your preferred location for games.</li>
+</ul>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 2: Using Steam Compatibility Tool</strong>
+<ul>
+    <li>Switch your Steam Deck to desktop mode (in the Power settings menu).</li>
+    <li>Locate the downloaded game and the <code>setup.exe</code> file.</li>
+    <li>Right-click on <code>setup.exe</code> and click “Add to Steam”. You’ll see a small Steam icon next to your cursor to confirm this step was done correctly.</li>
+    <li>Open Steam, go to your Library, and click on <code>setup.exe</code>.</li>
+    <li>Locate the cog icon on the right side of the screen and click it.</li>
+    <li>Go to the Compatibility section and check the box that says “Force the use of a specific compatibility tool.”</li>
+    <li>Select Proton Experimental.</li>
+    <li>Open Dolphin File Explorer and go to <code>/home/deck/</code>. In this path, create a new folder called <code>Games</code>.</li>
+    <li>Go back to Steam, click on <code>setup.exe</code>, and press Play.</li>
+</ul>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Continued from either method:</strong>
+<ul>
+    <li>Wait for the installation to complete.</li>
+    <li>Once done, check off all the radio boxes in the installer and close it.</li>
+</ul>
+</td>
+</tr>
+</table>
 
 > [!DANGER]
 > FG repacks default to the D drive, and DoDi repacks default to the C drive.
@@ -109,56 +127,87 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [!WARNING]
 > Be patient. Sometimes, it can take a while for the installer to appear.
 
-> [!TIP]
-> * Once it does, select your preferred language (e.g., English) and click Next.
-> * Follow the installer steps. Make sure to:
->     * Set the installation path to the `Games` folder in the Z drive (or your microSD card if installing there).
->     * Untick any options for additional installations (like DirectX and Visual C++).
-> * Start the installation.
->     * Optional step: Limit the installer to 2GB of RAM for installation stability.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ul>
+    <li>Once it does, select your preferred language (e.g., English) and click Next.</li>
+    <li>Follow the installer steps. Make sure to:
+        <ul>
+            <li>Set the installation path to the <code>Games</code> folder in the Z drive (or your microSD card if installing there).</li>
+            <li>Untick any options for additional installations (like DirectX and Visual C++).</li>
+        </ul>
+    </li>
+    <li>Start the installation.
+        <ul>
+            <li>Optional step: Limit the installer to 2GB of RAM for installation stability.</li>
+        </ul>
+    </li>
+</ul>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > Don’t worry if the installation is slow, especially for repacks. This is normal and can take hours depending on game size and compression.
 
 ##### Part 3: Running the Game
-
-> [!TIP]
-> **Method 1: Using Wine**
-> * Once the installation is complete, go to the installation folder and locate the game’s `.exe` file (e.g., `game.exe`).
-> * Right-click on the `game.exe`, select “Add to Steam” to add it as a non-Steam game.
-> * Open Steam, find `game.exe`, and go to the Compatibility section.
-> * Set the compatibility to Proton Experimental.
-> * Launch the game by pressing Play.
-> * If it shows an error or doesn’t run: Refer to the dependencies guide for help (Dependencies Guide).
-> * Run the game in Desktop mode to verify it works correctly.
-> * Once verified, you can rename it in Steam to whatever you prefer, and then switch back to Gaming mode to play.
-
-> [!TIP]
-> **Method 2: Using Steam Compatibility Tool**
-> * Once the installation is complete, go back to Steam and remove `setup.exe` (right-click > Manage > Remove non-Steam game).
-> * Go to the installation folder, find the `game.exe` file, right-click on it, and add it to Steam.
-> * Open Steam, find `game.exe`, and go to the Compatibility section. Repeat steps 5-7 from Part 1 (set the compatibility to Proton Experimental).
-> * Launch the game by pressing Play.
-> * Run the game in Desktop mode to make sure it works correctly.
-> * Exit the game. You can rename it in Steam to whatever you prefer (otherwise, it’ll show as `game.exe` in gaming mode).
-> * Switch back to Gaming mode and enjoy your game!
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 1: Using Wine</strong>
+<ul>
+    <li>Once the installation is complete, go to the installation folder and locate the game’s .exe file (e.g., <code>game.exe</code>).</li>
+    <li>Right-click on the <code>game.exe</code>, select “Add to Steam” to add it as a non-Steam game.</li>
+    <li>Open Steam, find <code>game.exe</code>, and go to the Compatibility section.</li>
+    <li>Set the compatibility to Proton Experimental.</li>
+    <li>Launch the game by pressing Play.</li>
+    <li>If it shows an error or doesn’t run: Refer to the dependencies guide for help (Dependencies Guide).</li>
+    <li>Run the game in Desktop mode to verify it works correctly.</li>
+    <li>Once verified, you can rename it in Steam to whatever you prefer, and then switch back to Gaming mode to play.</li>
+</ul>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 2: Using Steam Compatibility Tool</strong>
+<ul>
+    <li>Once the installation is complete, go back to Steam and remove <code>setup.exe</code> (right-click > Manage > Remove non-Steam game).</li>
+    <li>Go to the installation folder, find the <code>game.exe</code> file, right-click on it, and add it to Steam.</li>
+    <li>Open Steam, find <code>game.exe</code>, and go to the Compatibility section. Repeat steps 5-7 from Part 1 (set the compatibility to Proton Experimental).</li>
+    <li>Launch the game by pressing Play.</li>
+    <li>Run the game in Desktop mode to make sure it works correctly.</li>
+    <li>Exit the game. You can rename it in Steam to whatever you prefer (otherwise, it’ll show as <code>game.exe</code> in gaming mode).</li>
+    <li>Switch back to Gaming mode and enjoy your game!</li>
+</ul>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > If it shows an error or doesn’t run: Either the Proton version is incorrect (try different ones) or there’s a missing dependency. If it's the latter, refer to a dependencies guide (Dependencies Guide).
 
-> [!TIP]
-> **Additional Notes**
-> * Some downloads may come in `.rar` files. Extract these using an app like PeaZip before proceeding to Step 2.
-> * Proton Experimental should usually work, but if it doesn’t, try the latest Proton version or Proton-GE.
-> * You may need to enable hidden files for this step.
-> * To install on a microSD card, create a folder named `Games` on the SD card root. Then, add the following to `setup.exe`’s launch options:
->     ```bash
->     STEAM_COMPAT_MOUNTS="/run/media/mmcblk0p1/Games/" %command%
->     ```
-> * Avoid installing to the C drive to prevent issues later on.
-> * Some games may have a different `.exe` file for launching. Use Dolphin File Explorer to search for other `.exe` files in the game folder.
-> * Some games require specific Proton versions. Search Reddit for recommendations, and use ProtonUp-QT to download other Proton versions if needed.
-> * This guide should help you install and configure non-Steam games on your Steam Deck. Enjoy gaming!
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Additional Notes</strong>
+<ul>
+    <li>Some downloads may come in <code>.rar</code> files. Extract these using an app like PeaZip before proceeding to Step 2.</li>
+    <li>Proton Experimental should usually work, but if it doesn’t, try the latest Proton version or Proton-GE.</li>
+    <li>You may need to enable hidden files for this step.</li>
+    <li>To install on a microSD card, create a folder named <code>Games</code> on the SD card root. Then, add the following to <code>setup.exe</code>’s launch options:
+        <pre><code>STEAM_COMPAT_MOUNTS="/run/media/mmcblk0p1/Games/" %command%</code></pre>
+    </li>
+    <li>Avoid installing to the C drive to prevent issues later on.</li>
+    <li>Some games may have a different <code>.exe</code> file for launching. Use Dolphin File Explorer to search for other <code>.exe</code> files in the game folder.</li>
+    <li>Some games require specific Proton versions. Search Reddit for recommendations, and use ProtonUp-QT to download other Proton versions if needed.</li>
+    <li>This guide should help you install and configure non-Steam games on your Steam Deck. Enjoy gaming!</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ### Installing games through Lutris
 
@@ -169,22 +218,29 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [!NOTE]
 > It's not necessary to install a game using Lutris as described here. But for some (cracked) games it works better or as described below is necessary insofar as you need a different runner for e. g. the installation of FitGirl repacks. So if you have an already installed game, skip steps 6 to 12.
 
-> [!TIP]
-> 1. Obtain your desired game from a respected source.
-> 2. Install Lutris and open it.
-> 3. Click on to top left "+"-button to add a game.
-> 4. Enter the name of the game and select the Runner "Wine".
-> 5. Change to the tab "Game options".
-> 6. Click on the top right button "Browse.." to select the game's executable.
-> 7. Browse to the directory of your downloaded game and select the installer's `*.exe`.
-> 8. Click "Save", you'll see your game's installation has been added to Lutris.
-> 9. Double-click on it or use the bottom-left button "Play".
-> 10. The installation should start, follow the on-screen instructions.
-> 11. After the installation is done, right-click the game in Lutris and click "Configure".
-> 12. Go to "Game options" and click the top right button "Browse..".
-> 13. Browse to the directory in which you've installed the game.
-> 14. Select the game's executable and click the bottom right "Save".
-> 15. Double-click the game in Lutris to start it or use the bottom left button "Play".
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Obtain your desired game from a respected source.</li>
+    <li>Install Lutris and open it.</li>
+    <li>Click on to top left "+"-button to add a game.</li>
+    <li>Enter the name of the game and select the Runner "Wine".</li>
+    <li>Change to the tab "Game options".</li>
+    <li>Click on the top right button "Browse.." to select the game's executable.</li>
+    <li>Browse to the directory of your downloaded game and select the installer's <code>*.exe</code>.</li>
+    <li>Click "Save", you'll see your game's installation has been added to Lutris.</li>
+    <li>Double-click on it or use the bottom-left button "Play".</li>
+    <li>The installation should start, follow the on-screen instructions.</li>
+    <li>After the installation is done, right-click the game in Lutris and click "Configure".</li>
+    <li>Go to "Game options" and click the top right button "Browse..".</li>
+    <li>Browse to the directory in which you've installed the game.</li>
+    <li>Select the game's executable and click the bottom right "Save".</li>
+    <li>Double-click the game in Lutris to start it or use the bottom left button "Play".</li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > If a game doesn't work or has poor performance, click "Configure" on the game and tick the bottom left box "Show advanced options". Now you can edit the game's options, change the runner, etc.
@@ -210,20 +266,27 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 #### SSH (Network File Sharing)
 
 ##### Setting up SSHD
-> [!TIP]
-> **This will explain how to set a user password and enable the SSH Daemon Service on your Deck.**
-> 1. Push the **STEAM** button on the deck
-> 2. Go to **Power**
-> 3. Select **Switch to Desktop**
-> 4. From Desktop Mode, Click the **Application Launcher** (Steam Deck Icon, bottom left)
-> 5. Go to **All Applications** > **Konsole**
-> 6. Run the following command `passwd`
-> 7. Enter a secure password (You will be prompted for this when you connect to the Deck remotely via SSH)
-> 8. Run the following command `sudo systemctl enable sshd`
-> 9. Now run the following command to verify that SSHD is enabled `sudo systemctl status sshd`
-> 10. In the output look for `enabled;` on the `Loaded:` line
-> 11. Look for `running` on the `Active:` line
-> 12. If all steps were followed SSH should be enabled, if not *ASK AN ADULT*
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>This will explain how to set a user password and enable the SSH Daemon Service on your Deck.</strong>
+<ol>
+    <li>Push the <strong>STEAM</strong> button on the deck</li>
+    <li>Go to <strong>Power</strong></li>
+    <li>Select <strong>Switch to Desktop</strong></li>
+    <li>From Desktop Mode, Click the <strong>Application Launcher</strong> (Steam Deck Icon, bottom left)</li>
+    <li>Go to <strong>All Applications</strong> > <strong>Konsole</strong></li>
+    <li>Run the following command <code>passwd</code></li>
+    <li>Enter a secure password (You will be prompted for this when you connect to the Deck remotely via SSH)</li>
+    <li>Run the following command <code>sudo systemctl enable sshd</code></li>
+    <li>Now run the following command to verify that SSHD is enabled <code>sudo systemctl status sshd</code></li>
+    <li>In the output look for <code>enabled;</code> on the <code>Loaded:</code> line</li>
+    <li>Look for <code>running</code> on the <code>Active:</code> line</li>
+    <li>If all steps were followed SSH should be enabled, if not <em>ASK AN ADULT</em></li>
+</ol>
+</td>
+</tr>
+</table>
 
 *from [GitHub](https://github.com/Matalus/steamdeck-tips/blob/main/wiki/ssh.md)*
 
@@ -238,30 +301,53 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 ###### Windows (10/11)
 
 #### Warpinator (Still Network, Needs an App)
+
 > [!NOTE]
 > Warpinator is an app available for Windows, and Linux that makes a direct tunnel between your two devices. This is by far the highest speed option outside of SSH. This method requires the application to be running on your Steam Deck and your other device at the same time.
 
 ##### On Your Deck
-> [!TIP]
-> 1. Install **Warpinator** from the **Discover Store**.
-> 2. Open **Preferences** and click **Connection** then set a unique PIN.
-> 3. In the **General** tab, make sure you point the download folder to a place you can find. I chose my **Games** folder.
->     a. If you don't have access to a certain location (like your SD card), use flatseal to give Warpinator Permissions.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Install <strong>Warpinator</strong> from the <strong>Discover Store</strong>.</li>
+    <li>Open <strong>Preferences</strong> and click <strong>Connection</strong> then set a unique PIN.</li>
+    <li>In the <strong>General</strong> tab, make sure you point the download folder to a place you can find. I chose my <strong>Games</strong> folder.
+        <ul><li>If you don't have access to a certain location (like your SD card), use flatseal to give Warpinator Permissions.</li></ul>
+    </li>
+</ol>
+</td>
+</tr>
+</table>
 
 ##### On your PC
-> [!TIP]
-> 1. Download (unofficial) Warpinator from this [github](https://warpinator.com/warpinator-download/). Install it.
-> 2. Click **Options>Settings**.
-> 3. Put the same PIN from your Deck in the **Group code** box.
-> 4. Also make sure your **Receive into folder** is somewhere you can find it.
-> 5. Click **Apply**, then click **OK**.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Download (unofficial) Warpinator from this <a href="https://warpinator.com/warpinator-download/">github</a>. Install it.</li>
+    <li>Click <strong>Options > Settings</strong>.</li>
+    <li>Put the same PIN from your Deck in the <strong>Group code</strong> box.</li>
+    <li>Also make sure your <strong>Receive into folder</strong> is somewhere you can find it.</li>
+    <li>Click <strong>Apply</strong>, then click <strong>OK</strong>.</li>
+</ol>
+</td>
+</tr>
+</table>
 
 ##### Transferring Files
-> [!TIP]
-> 1. Your Deck should show in the **Available Devices** area. If not, make sure you followed the steps above. Click on it to open it's transfer window.
-> 2. On Windows you can click the `+` button to add a folder, or the `Browse` button to add a singular file. You can also drag and drop multiple folders/into the window.
-> 3. Accept the transfer on the deck.
-> 4. Watch the files fly across your network onto your Deck.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Your Deck should show in the <strong>Available Devices</strong> area. If not, make sure you followed the steps above. Click on it to open its transfer window.</li>
+    <li>On Windows you can click the <code>+</code> button to add a folder, or the <code>Browse</code> button to add a singular file. You can also drag and drop multiple folders/into the window.</li>
+    <li>Accept the transfer on the deck.</li>
+    <li>Watch the files fly across your network onto your Deck.</li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > The instructions for Deck>PC should be the same.
@@ -273,18 +359,29 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > While Winpinator is often recommended, I myself had issues with it often not connecting or not finding my Deck. This was solved by using the unofficial app from the github linked above.
 
 #### FTP (Slower Network Sharing, Needs an App)
+
 > [!NOTE]
 > We will be using Filezilla here, as it is available on every OS. Any combination of FTP clients should work, as FTP is a protocol that is being utilized by all of the apps that offer it. There should be almost no difference.
 
-> [!TIP]
-> 1. Download **[Filezilla](https://filezilla-project.org/)** on both devices.
-> 2. Find your IP address on your Deck by going to **Settings>Internet** in either **Game Mode** or **Big Picture** in **Desktop Mode**
-> 3. On your PC, in **Filezilla**:
->     a. Enter the **Deck** IP address into the **Host** box.
->     b. The Username is going to be `deck`.
->     c. The password is blank unless you set it previously with the `passwd` command.
->     d. The Port will be `22`
-> 4. Click **Quickconnect**
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Download <strong><a href="https://filezilla-project.org/">Filezilla</a></strong> on both devices.</li>
+    <li>Find your IP address on your Deck by going to <strong>Settings>Internet</strong> in either <strong>Game Mode</strong> or <strong>Big Picture</strong> in <strong>Desktop Mode</strong></li>
+    <li>On your PC, in <strong>Filezilla</strong>:
+        <ul>
+            <li>Enter the <strong>Deck</strong> IP address into the <strong>Host</strong> box.</li>
+            <li>The Username is going to be <code>deck</code>.</li>
+            <li>The password is blank unless you set it previously with the <code>passwd</code> command.</li>
+            <li>The Port will be <code>22</code></li>
+        </ul>
+    </li>
+    <li>Click <strong>Quickconnect</strong></li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!WARNING]
 > You can add the connection to the app by clicking **File>Copy Current Connection to Site Manager**.
@@ -299,6 +396,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > This guide will be using ProtonTricks
 
 ### Finding Non-Steam Game Proton Folder
+
 > [!NOTE]
 > This only works for games added to steam already as a non steam game.
 > This means you need to enable proton on the game and try to run it once so it can set up a prefix for it.
@@ -325,6 +423,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 [//]:(Put a guide for how to find which dependencies are needed and where to download them, and explain what they are)
 
 #### What are dependencies?
+
 > [!NOTE]
 > Dependencies are other tools/apps that software relies on to work.
 > These are often included in the game installers on official releases. When you add a non-steam game from a pirated package, they may include these in a separate folder, or they may not be included at all. Without them the games that were designed around these dependencies at best will work with issues, and at worst won't open at all. If you're situation is either of these, this is the section that *should* help.
@@ -335,21 +434,30 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > * [X] The game doesn't start.
 
 #### How to find what dependencies are needed for your game.
+
 > [!NOTE]
 > In the event that a game does not come with it's dependencies in the folder or you are not sure which they need, Steam actually has a database dedicated to every iteration of every game they have. Being the awesome company they are, they have a dedicated log of all things required through the history of a games life cycle on their server. This includes everything from prices up to dependencies, updates and DLC. In this instance, we're going to show you where to go on their database to get the info you need.
 
-> [!TIP]
-> **Steam Database**
-> * Find your game on [SteamDB](https://steamdb.info) by searching it by title.
-> * On the game's page, click the **Depots** section (in the same area as **Prices**, **Packages**, **DLCs**, etc.)
-> * Look for anything with a **Windows** logo next to it. Anything else is specific to the game and can be ignored.
-> * In this example, GTA V requires `VC 2012 Redist` and `DirectX Jun 2010 Redist`.
-> * Proceed to the next portion to find out where to get them!
-> * Proceed to the step after that step to install them!!
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Steam Database</strong>
+<ul>
+    <li>Find your game on <a href="https://steamdb.info">SteamDB</a> by searching it by title.</li>
+    <li>On the game's page, click the <strong>Depots</strong> section (in the same area as <strong>Prices</strong>, <strong>Packages</strong>, <strong>DLCs</strong>, etc.)</li>
+    <li>Look for anything with a <strong>Windows</strong> logo next to it. Anything else is specific to the game and can be ignored.</li>
+    <li>In this example, GTA V requires <code>VC 2012 Redist</code> and <code>DirectX Jun 2010 Redist</code>.</li>
+    <li>Proceed to the next portion to find out where to get them!</li>
+    <li>Proceed to the step after that step to install them!!</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ![GTA V Dependencies](https://i.imgur.com/adLTbwV.png)
 
 #### Where to get dependencies.
+
 > [!NOTE]
 > Microsoft has everything you need.
 > Because Microsoft has been around for ages, and they have been the main OS for many business and personal users for decades, they have to keep quite the extensive catalog of legacy software on their website. This means all dependencies should be available right there on the website itself.
@@ -376,65 +484,102 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 - [NVIDIA Site](https://www.nvidia.com/en-us/drivers/physx/physx-9-19-0218-driver/)
 
 #### Installing with ProtonTricks
-> [!TIP]
-> **Method 1**
-> * Click ok on the first screen with the radio button highlighted create new/default prefix
-> * Click the radio button that says Uninstall
-> * A new screen will pop up and on this will be a button that says Install
-> * Install all the dependencies needed
-> * Hit Ok at the bottom when you have finished
-> * Verify they installed by going back to the Uninstall menu and at the bottom is will show all that is installed in the Wine Prefix
-
-> [!TIP]
-> **Method 2**
-> 1. **Open Protontricks:** Launch Protontricks from your applications menu.
-> 2. **Select the Game:** Protontricks will show a list of games installed on your Deck. Select the game for which you need to install dependencies.
-> 3. **Choose “Select the default wineprefix”** to set up a unique configuration environment for that game.
-> 4. **Install Specific Dependencies:**
->     * Here are common dependencies that games may need:
->         * **DirectX:** `d3dx9`, `d3dx10`, `d3dx11`
->         * **Visual C++ Redistributables:** `vcrun2005`, `vcrun2008`, `vcrun2010`, `vcrun2013`, `vcrun2019`
->         * **DotNet Frameworks:** `dotnet20`, `dotnet40`, `dotnet48`
->     * In Protontricks, select **Install a Windows DLL or component** and choose the required dependencies from the list.
-> 5. **Verify Installations:**
->     * Once installed, Protontricks will confirm the installation of each component. Double-check that each required dependency is installed.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 1</strong>
+<ul>
+    <li>Click ok on the first screen with the radio button highlighted create new/default prefix</li>
+    <li>Click the radio button that says Uninstall</li>
+    <li>A new screen will pop up and on this will be a button that says Install</li>
+    <li>Install all the dependencies needed</li>
+    <li>Hit Ok at the bottom when you have finished</li>
+    <li>Verify they installed by going back to the Uninstall menu and at the bottom is will show all that is installed in the Wine Prefix</li>
+</ul>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 2</strong>
+<ol>
+    <li><strong>Open Protontricks:</strong> Launch Protontricks from your applications menu.</li>
+    <li><strong>Select the Game:</strong> Protontricks will show a list of games installed on your Deck. Select the game for which you need to install dependencies.</li>
+    <li><strong>Choose “Select the default wineprefix”</strong> to set up a unique configuration environment for that game.</li>
+    <li><strong>Install Specific Dependencies:</strong>
+        <ul>
+            <li>Here are common dependencies that games may need:
+                <ul>
+                    <li><strong>DirectX:</strong> <code>d3dx9</code>, <code>d3dx10</code>, <code>d3dx11</code></li>
+                    <li><strong>Visual C++ Redistributables:</strong> <code>vcrun2005</code>, <code>vcrun2008</code>, <code>vcrun2010</code>, <code>vcrun2013</code>, <code>vcrun2019</code></li>
+                    <li><strong>DotNet Frameworks:</strong> <code>dotnet20</code>, <code>dotnet40</code>, <code>dotnet48</code></li>
+                </ul>
+            </li>
+            <li>In Protontricks, select <strong>Install a Windows DLL or component</strong> and choose the required dependencies from the list.</li>
+        </ul>
+    </li>
+    <li><strong>Verify Installations:</strong>
+        <ul><li>Once installed, Protontricks will confirm the installation of each component. Double-check that each required dependency is installed.</li></ul>
+    </li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!DANGER]
 > This will likely show errors, that's okay, it's batch installing different types (including incompatible ones), the right ones will still be installed. Click through any installers that may show up.
 
 #### Installing manually (with an installer, still in ProtonTricks)
+
 > [!NOTE]
 > This method is useful for when you find a `Redist` folder or similar in the copy you downloaded. Some repackers do this.
 > Make sure ProtonTricks has access to your drives and SD card through Flatseal.
 
-> [!TIP]
-> 1. **Open Protontricks:** Launch Protontricks from your applications menu.
-> 2. **Select the Game:** Protontricks will show a list of games installed on your Deck. Select the game for which you need to install dependencies.
-> 3. **Choose “Select the default wineprefix”** to set up a unique configuration environment for that game.
-> 4. **Choose "Run explorer** and click OK.
-> 5. **Execute the dependency `.exe` file** navigate using the folder list on the side, then double click the `.exe` when you find it.
-> 6. **Close all ProtonTricks windows**
-> 7. **Test your game**
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li><strong>Open Protontricks:</strong> Launch Protontricks from your applications menu.</li>
+    <li><strong>Select the Game:</strong> Protontricks will show a list of games installed on your Deck. Select the game for which you need to install dependencies.</li>
+    <li><strong>Choose “Select the default wineprefix”</strong> to set up a unique configuration environment for that game.</li>
+    <li><strong>Choose "Run explorer</strong> and click OK.</li>
+    <li><strong>Execute the dependency <code>.exe</code> file</strong> navigate using the folder list on the side, then double click the <code>.exe</code> when you find it.</li>
+    <li><strong>Close all ProtonTricks windows</strong></li>
+    <li><strong>Test your game</strong></li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!DANGER]
 > If this didn't fix it, keep reading.
 
 ### Adding DLLs to Proton
+
 > [!NOTE]
 > Windows uses something called Dynamic Link Libraries (DLLs).
 > These are used by applications/games to bind functions to each other and work with data inside of the folder they are made in. Linux does not use DLLs so it is sometimes required to point your Wine/Proton prefix to the ones games use. This especially applies when modding a game, as a lot of mods rely on DLLs. We will discuss here how to add them.
 
 #### Steam Arguments
+
 > [!NOTE]
 > Steam arguments are entered through the game properties in the `Launch Options` box. These vary by the type of command, here we are going to cover `WINEDLLOVERRIDES`.
 
-> [!TIP]
-> 1. In **Game Mode/Desktop Mode**, select your game.
-> 2. Click the **Settings** (gear) icon.
-> 3. Click **Properties**.
-> 4. The **Shortcut** tab should open automatically.
-> 5. Let's say we're trying to point to `dinput8.dll`, in order to do this type `WINEDLLOVERRIDES="dinput8.dll=n,b" %command%` in the **Launch Options** box.
-> 6. Do this same thing for any other DLL needed by replacing `dinput8.dll` in the command from *Step 5*. If adding multiple in one command, you can separate them with commas, making sure they fit within the first quotation mark and the equal sign. (Example: `WINEDLLOVERRIDES="dinput8.dll,d3d9.dll=n,b"`)
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>In <strong>Game Mode/Desktop Mode</strong>, select your game.</li>
+    <li>Click the <strong>Settings</strong> (gear) icon.</li>
+    <li>Click <strong>Properties</strong>.</li>
+    <li>The <strong>Shortcut</strong> tab should open automatically.</li>
+    <li>Let's say we're trying to point to <code>dinput8.dll</code>, in order to do this type <code>WINEDLLOVERRIDES="dinput8.dll=n,b" %command%</code> in the <strong>Launch Options</strong> box.</li>
+    <li>Do this same thing for any other DLL needed by replacing <code>dinput8.dll</code> in the command from <em>Step 5</em>. If adding multiple in one command, you can separate them with commas, making sure they fit within the first quotation mark and the equal sign. (Example: <code>WINEDLLOVERRIDES="dinput8.dll,d3d9.dll=n,b"</code>)</li>
+</ol>
+</td>
+</tr>
+</table>
 
 *from [r/SteamDeckTricks](https://www.reddit.com/r/SteamDeckTricks/comments/xnmm32/game_modding_guide/)*
 
@@ -442,19 +587,27 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > These can also be added in Lutris by right-clicking your game, selecting **Configure**>**Runner options** and adding them in the DLL overrides section. Under **Key** you'll type (in this example) `dinput8.dll` and under **Value** enter `n,b`.
 
 #### ProtonTricks
+
 > [!NOTE]
 > This method uses ProtonTricks interface to add DLL files to the prefix. This is my preferred method as I can see what is being entered, and not have to worry about typing things properly.
 
-> [!TIP]
-> 1. Open **ProtonTricks**.
-> 2. Select your game in the list. Click **OK**.
-> 3. Select **default wine prefix**, click **OK**.
-> 4. Select **Run winecfg**, click **OK**.
-> 5. In the **Wine Configuration** window, select the **Libraries** tab.
-> 6. Type `dinput8` and click **Add** or hit *Enter* on your keyboard.
-> 7. Scroll to the bottom of the list to make sure it is in the list.
-> 8. Click **OK**, and exit out of all ProtonTricks windows.
-> 9. Run your game and see if the intended outcome was achieved.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Open <strong>ProtonTricks</strong>.</li>
+    <li>Select your game in the list. Click <strong>OK</strong>.</li>
+    <li>Select <strong>default wine prefix</strong>, click <strong>OK</strong>.</li>
+    <li>Select <strong>Run winecfg</strong>, click <strong>OK</strong>.</li>
+    <li>In the <strong>Wine Configuration</strong> window, select the <strong>Libraries</strong> tab.</li>
+    <li>Type <code>dinput8</code> and click <strong>Add</strong> or hit <em>Enter</em> on your keyboard.</li>
+    <li>Scroll to the bottom of the list to make sure it is in the list.</li>
+    <li>Click <strong>OK</strong>, and exit out of all ProtonTricks windows.</li>
+    <li>Run your game and see if the intended outcome was achieved.</li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > You do not need to include the `.dll` at the end.
@@ -477,21 +630,35 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 EmuDeck is a collection of scripts that allows you to autoconfigure your Steam Deck, it creates your roms directory structure and downloads all of the needed Emulators for you along with the best configurations for each of them. EmuDeck works great with [Steam Rom Manager](https://github.com/SteamGridDB/steam-rom-manager) or with [EmulationStation DE](https://es-de.org).
 
 #### Installing EmuDeck
-> [!TIP]
-> 1. If you are using an SD Card, format your SD Card in Game Mode on SteamOS. SD Cards need to be formatted as ext4 (or btrfs) to be compatible with EmuDeck.
->     * **Skip** this step if you have already formatted your SD Card
-> 2. Switch to Desktop Mode. Pressing the `STEAM` button, then select Power and choose `Switch to Desktop`.
-> 3. Download the [EmuDeck Installer](https://www.emudeck.com/#download).
-> 4. Copy the installer to your Steam Deck's desktop. Run the EmuDeck Installer.
-> 5. Copy your games to the `Emulation/roms` folder created by the installer. Open Steam ROM Manager through EmuDeck. Each parser corresponds to an emulator or tool. Enable which parsers you would like to use.
->     * Copy your BIOS to `Emulation/bios`
->     * Refer to the [Cheat Sheet](https://emudeck.github.io/cheat-sheet/) for which folders correspond to which systems, a full list of ROM file types, and expected BIOS
-> 6. After you have selected your parsers:
->     * Click on `Preview`
->     * Click `Parse`
->     * Wait for all the images to download
->     * Click `Save apps to Steam`. The first time may take a few moments, After it saves successfully, your selected ROMs and tools will be added to your Steam library.
-> 7. Close Steam ROM Manager. Click `Return to Game Mode` on your desktop and your EmuDeck install is now complete!
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>If you are using an SD Card, format your SD Card in Game Mode on SteamOS. SD Cards need to be formatted as ext4 (or btrfs) to be compatible with EmuDeck.
+        <ul><li><strong>Skip</strong> this step if you have already formatted your SD Card</li></ul>
+    </li>
+    <li>Switch to Desktop Mode. Pressing the <code>STEAM</code> button, then select Power and choose <code>Switch to Desktop</code>.</li>
+    <li>Download the <a href="https://www.emudeck.com/#download">EmuDeck Installer</a>.</li>
+    <li>Copy the installer to your Steam Deck's desktop. Run the EmuDeck Installer.</li>
+    <li>Copy your games to the <code>Emulation/roms</code> folder created by the installer. Open Steam ROM Manager through EmuDeck. Each parser corresponds to an emulator or tool. Enable which parsers you would like to use.
+        <ul>
+            <li>Copy your BIOS to <code>Emulation/bios</code></li>
+            <li>Refer to the <a href="https://emudeck.github.io/cheat-sheet/">Cheat Sheet</a> for which folders correspond to which systems, a full list of ROM file types, and expected BIOS</li>
+        </ul>
+    </li>
+    <li>After you have selected your parsers:
+        <ul>
+            <li>Click on <code>Preview</code></li>
+            <li>Click <code>Parse</code></li>
+            <li>Wait for all the images to download</li>
+            <li>Click <code>Save apps to Steam</code>. The first time may take a few moments, After it saves successfully, your selected ROMs and tools will be added to your Steam library.</li>
+        </ul>
+    </li>
+    <li>Close Steam ROM Manager. Click <code>Return to Game Mode</code> on your desktop and your EmuDeck install is now complete!</li>
+</ol>
+</td>
+</tr>
+</table>
 
 *from [Emudeck wiki](https://emudeck.github.io/)*
 
@@ -499,18 +666,25 @@ EmuDeck is a collection of scripts that allows you to autoconfigure your Steam D
 RetroDECK is a [ES-DE Frontend](https://es-de.org/) powered Flatpak all-in-one game application that is still in development. Thanks to its RetroDECK Framework it builds-in a variety of software (that runs your games) like emulators and game engines in one package that is pre-configured.
 
 #### Installing RetroDeck
-> [!TIP]
-> * Put the Steam Deck into **Desktop Mode**
-> * Install **RetroDECK** from **Discover**
-> * Start RetroDECK first time in **Desktop Mode**
-> * Choose where RetroDECK should create the roms folders **Internal** or **SDCard**.
-> * Put the **BIOS files** inside `~/retrodeck/bios/`.
-> * Put the **ROMS** inside `~/retrodeck/roms/ or <sdcard>/retrodeck/roms/` or a custom location.
-> * Choose to install **Steam Controller Layouts** for RetroDECK, it should be checked from the start.
-> * In Steam desktop go to the tab **Games** press `Add non-Steam game to My library` and select **RetroDECK** to add it into your library. If that is not working, you can *right-click* on the RetroDECK desktop icon and press `Add to Steam` in the menu.
-> * Switch over to **Game Mode** and go to **RetroDECK** on the Steam Grid under **Library>Non-Steam**
-> * Add any of the the Official Layouts under **Controller Settings>Controller Layouts>Templates** in the Steam Deck called `RetroDECK: Steam Deck - Neptune SIMPLE or FULL` with a version number. Apply the layout.
-> * Launch **RetroDECK** and enjoy.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ul>
+    <li>Put the Steam Deck into <strong>Desktop Mode</strong></li>
+    <li>Install <strong>RetroDECK</strong> from <strong>Discover</strong></li>
+    <li>Start RetroDECK first time in <strong>Desktop Mode</strong></li>
+    <li>Choose where RetroDECK should create the roms folders <strong>Internal</strong> or <strong>SDCard</strong>.</li>
+    <li>Put the <strong>BIOS files</strong> inside <code>~/retrodeck/bios/</code>.</li>
+    <li>Put the <strong>ROMS</strong> inside <code>~/retrodeck/roms/ or &lt;sdcard&gt;/retrodeck/roms/</code> or a custom location.</li>
+    <li>Choose to install <strong>Steam Controller Layouts</strong> for RetroDECK, it should be checked from the start.</li>
+    <li>In Steam desktop go to the tab <strong>Games</strong> press <code>Add non-Steam game to My library</code> and select <strong>RetroDECK</strong> to add it into your library. If that is not working, you can <em>right-click</em> on the RetroDECK desktop icon and press <code>Add to Steam</code> in the menu.</li>
+    <li>Switch over to <strong>Game Mode</strong> and go to <strong>RetroDECK</strong> on the Steam Grid under <strong>Library > Non-Steam</strong></li>
+    <li>Add any of the the Official Layouts under <strong>Controller Settings > Controller Layouts > Templates</strong> in the Steam Deck called <code>RetroDECK: Steam Deck - Neptune SIMPLE or FULL</code> with a version number. Apply the layout.</li>
+    <li>Launch <strong>RetroDECK</strong> and enjoy.</li>
+</ul>
+</td>
+</tr>
+</table>
 
 *from [RetroDeck wiki](https://retrodeck.readthedocs.io/en/latest/wiki_devices/steamdeck/steamdeck-start/)*
 
@@ -520,6 +694,7 @@ Individual emulators can be installed as well. A lot of them are already on the 
 ### Switch Emulation
 
 #### Recommended Emulators
+
 > [!NOTE]
 > As of 2024, the two main Switch emulators were taken down by the most ruthlessly litigious playing card game companies of all time. Taken down does not mean gone, though. Nothing is ever fully erased from the internet. **EVER**. With that being said, we are not going to risk having this guide taken down by linking but as of now the best and most reliable iterations are to find mirrors of **Yuzu** or **Ryujinx**. Those will have been last updated before the shutdowns. As of the time this guide was written that should not affect any of the current games that are out (at least the important ones). There is a fork of **Ryujinx** that is being maintained by *GreemDev*. The **Yuzu** forks are **Sudachi** or **Suyu**.
 
@@ -540,20 +715,28 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 
 ## Cracks/DLC/Updates
 [//]: (Maybe expand on each individual one)
+
 > [!NOTE]
 > Since a lot of cracks and updates are made for PC, it is often recommended to do whatever patching of files is required on your PC, then to transfer the fully patched game over to your Deck. This certainly applies in situations with CreamAPI, Goldberg Steam Emulator, and any cracked game updates. If you don't have the means to do that, or you like to do things in hard mode, then here is how you'd do that.
 >
 > This is not a blanket guide for all situations. This is just for the most common situations. Further tweaking may be needed depending on the game, the patch, or a plethora of other reasons.
 > Make sure ProtonTricks has access to your drives and SD card through Flatseal.
 
-> [!TIP]
-> 1. **Open Protontricks:** Launch Protontricks from your applications menu.
-> 2. **Select the Game:** Protontricks will show a list of games installed on your Deck. Select the game you intend to modify.
-> 3. **Choose “Select the default wineprefix”** to set up a unique configuration environment for that game.
-> 4. **Choose "Run explorer"** and click OK.
-> 5. **Execute the patch/modloader/ `.exe` file** navigate using the folder list on the side, then double click the `.exe` when you find it.
-> 6. **Close all ProtonTricks windows**
-> 7. **Test your game**
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li><strong>Open Protontricks:</strong> Launch Protontricks from your applications menu.</li>
+    <li><strong>Select the Game:</strong> Protontricks will show a list of games installed on your Deck. Select the game you intend to modify.</li>
+    <li><strong>Choose “Select the default wineprefix”</strong> to set up a unique configuration environment for that game.</li>
+    <li><strong>Choose "Run explorer"</strong> and click OK.</li>
+    <li><strong>Execute the patch/modloader/ <code>.exe</code> file</strong> navigate using the folder list on the side, then double click the <code>.exe</code> when you find it.</li>
+    <li><strong>Close all ProtonTricks windows</strong></li>
+    <li><strong>Test your game</strong></li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > Most modloaders really just modify and apply new files within the game folder. This can be done manually in most cases.
@@ -567,40 +750,57 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 ## Common questions/Things you will encounter
 
 ### Compressed files (.rar, .zip, .7z, etc.)
+
 > [!NOTE]
 > A lot of games come in what are called *compressed* formats. These are used when a folder or file is too large and you want to shrink them down. Repackers and download sites do this so they can be downloaded faster. Sometimes they come with the file extensions listed above in parentheses, or they may come in something like `.001, .002` or `7z01, .7z02,`, etc. These can be handled using **PeaZip**
 
-> [!TIP]
-> 1. Install **PeaZip** from the **Discover Store**
-> 2. Open **PeaZip**
-> 3. Click *File* then click *Open*
-> 4. Find and open your compresed files. If there are multiple select all or select the one that ends in `.7z` `.zip` or `.rar`.
-> 5. Click *Extract*
-> 6. Extract them to the same folder or another easy to find folder.
-> 7. This will either extract as an installer, or as a complete game. From there you can follow any of our guides above.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Install <strong>PeaZip</strong> from the <strong>Discover Store</strong></li>
+    <li>Open <strong>PeaZip</strong></li>
+    <li>Click <em>File</em> then click <em>Open</em></li>
+    <li>Find and open your compresed files. If there are multiple select all or select the one that ends in <code>.7z</code> <code>.zip</code> or <code>.rar</code>.</li>
+    <li>Click <em>Extract</em></li>
+    <li>Extract them to the same folder or another easy to find folder.</li>
+    <li>This will either extract as an installer, or as a complete game. From there you can follow any of our guides above.</li>
+</ol>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > This will result in double the size of your download or more taking up space on your drive.
 > If there were no errors in the extraction or the installation, you can delete the compressed files. If it was an installer, you may have triple the space taken up, once you are sure the game runs, delete the compressed files and the installer. Be sure to Empty your trash if you use that method.
 
 ### ISO Files
+
 > [!NOTE]
 > Some games (even after you extract them) will be in *ISO* format.
 > These are digital disc images. In Windows, opening this would be the same thing as inserting a disc for your game to install from, except it's all digital. These will have a `.iso` extension, and will usually be rather large in size.
 >
 > In some cases, this functionality may be built into Dolphin's contect menu by `right-clicking>hovering over Mount/unmount iso image>clicking Mount`. If that option is not present read below.
 
-> [!TIP]
-> 1. Install **PeaZip**/**PowerISO** from the **Discover Store**
-> 2. Open **PeaZip**/**PowerISO**
-> 3. Click *File* then click *Open* (PeaZip will be *Open archive*).
-> 4. Find and open your `.iso`.
-> 5. Click *Extract*
-> 6. Extract it to the same folder or another easy to find folder.
-> 7. This will either extract as an installer, or as a complete game. From there you can follow any of our guides above.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ol>
+    <li>Install <strong>PeaZip</strong>/<strong>PowerISO</strong> from the <strong>Discover Store</strong></li>
+    <li>Open <strong>PeaZip</strong>/<strong>PowerISO</strong></li>
+    <li>Click <em>File</em> then click <em>Open</em> (PeaZip will be <em>Open archive</em>).</li>
+    <li>Find and open your <code>.iso</code>.</li>
+    <li>Click <em>Extract</em></li>
+    <li>Extract it to the same folder or another easy to find folder.</li>
+    <li>This will either extract as an installer, or as a complete game. From there you can follow any of our guides above.</li>
+</ol>
+</td>
+</tr>
+</table>
 
 ### Install Locations
 [//]:(Add images to show each possibility, including drive letters, folder structure, C drive, etc)
+
 > [!NOTE]
 > When installing games on PC, common practice is for it to install to the `C:` drive.
 > This is put in place because the `C:` drive is usually the main drive that Windows lives and operates through. Since we are emulating the PC, the `C:` drive isn't really a drive at all. It's a folder inside of a prefix usually named `drive_c`. The nature of prefix is to emulate a Windows environment with the bare minimum. So when you work within this environment, it is limited. It is always recommended to install in a folder outside of the prefix that you can get a hold of easily.
@@ -616,77 +816,115 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 - [X] Lutris (or another app) can't see my folders
 
 #### Flatseal
+
 > [!NOTE]
 > Most of the apps you are using will be installed in a package format named **Flatpak**. **Lutris** and **ProtonTricks** especially. These apps can be controlled by an app called **FlatSeal**. Here we will show you how to enable permissions for an app to see your other devices.
 
-> [!TIP]
-> * Install **FlatSeal** from the **Discover Store**
-> * Open **FlatSeal**
-> * On the left, select the app in question, in this example we'll use **Lutris**
-> * Scroll down to **Filesystem**
->     * Turn on the switch for `All user files` to permit access to your internal SSD files.
->     * To see external devices
->         * In the **Discover** app, navigate to your external device.
->         * When the window is showing the root of the device, click the bar that says the title of the device (to the left of the **Split** button), this will reveal the path to your device
->         * Highlight the entire path, and **Copy** it.
->         * Click the *New Folder* icon next to `Other files`
->         * Paste the path into the new *text box*.
-> * Close whatever app was having trouble seeing your folders and open it and try again
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ul>
+    <li>Install <strong>FlatSeal</strong> from the <strong>Discover Store</strong></li>
+    <li>Open <strong>FlatSeal</strong></li>
+    <li>On the left, select the app in question, in this example we'll use <strong>Lutris</strong></li>
+    <li>Scroll down to <strong>Filesystem</strong>
+        <ul>
+            <li>Turn on the switch for <code>All user files</code> to permit access to your internal SSD files.</li>
+            <li>To see external devices
+                <ul>
+                    <li>In the <strong>Discover</strong> app, navigate to your external device.</li>
+                    <li>When the window is showing the root of the device, click the bar that says the title of the device (to the left of the <strong>Split</strong> button), this will reveal the path to your device</li>
+                    <li>Highlight the entire path, and <strong>Copy</strong> it.</li>
+                    <li>Click the <em>New Folder</em> icon next to <code>Other files</code></li>
+                    <li>Paste the path into the new <em>text box</em>.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Close whatever app was having trouble seeing your folders and open it and try again</li>
+</ul>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > This should work for any folder you want your app to see, and any app that is a flatpak.
 
 ### Can't find save files.
+
 > [!NOTE]
 > There is also a cool app that is recommended called **[Shortix](https://github.com/Jannomag/shortix)**.
 > Shortix creates user readable symlinks for Proton game prefixes. Once it is installed, you will have a folder created that provides shortcuts to your proton folders. All of the info is in that link and should kind of make things a little easier in the process of finding your mods, game saves, etc. If you'd like a manual method to find the folders, I have written a guide below.
 
-> [!TIP]
-> * Use the website [PCGamingWiki](https://www.pcgamingwiki.com/wiki/Home) to find the save path location.
-> * Refer to our [Finding Non-Steam Game Proton Folder](#finding-non-steam-game-proton-folder) section.
-> * Use the path on the website to navigate within `drive_c` and find your save file.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<ul>
+    <li>Use the website <a href="https://www.pcgamingwiki.com/wiki/Home">PCGamingWiki</a> to find the save path location.</li>
+    <li>Refer to our <a href="#finding-non-steam-game-proton-folder">Finding Non-Steam Game Proton Folder</a> section.</li>
+    <li>Use the path on the website to navigate within <code>drive_c</code> and find your save file.</li>
+</ul>
+</td>
+</tr>
+</table>
 
 > [!NOTE]
 > If there is no save file, check the **Install Locations** section above.
 
 ### How do I move/backup my save files?
+
 > [!NOTE]
 > Enter [ludasavi](https://github.com/mtkennerly/ludusavi).
 > This app works to backup your saves and apply them to other installations/devices. All info can be found on the linked github. If this doesn't work for you, use the guide in the section right above this to figure out where they are then move them manually.
 
 ### Controller not working
+
 > [!WARNING]
 > Some games will load perfectly but won't have controller input. Prime examples are the new Spider Man games and Ghost of Tsushima. There are a few ways to solve this. Covered below:
 
 #### Steam Input
 In most cases you can disable Steam Input in the Game Menu and that alone should solve the issue.
 
-> [!TIP]
-> **In Desktop Mode:**
-> * Select your game in Steam
-> * Click on the gear icon to the right of the **Play** button
-> * Click **Properties**
-> * Select the **Controller** tab
-> * Next to `Override for [Game Name]` click the dropdown
-> * Select `Disable Steam Input`
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>In Desktop Mode:</strong>
+<ul>
+    <li>Select your game in Steam</li>
+    <li>Click on the gear icon to the right of the <strong>Play</strong> button</li>
+    <li>Click <strong>Properties</strong></li>
+    <li>Select the <strong>Controller</strong> tab</li>
+    <li>Next to <code>Override for [Game Name]</code> click the dropdown</li>
+    <li>Select <code>Disable Steam Input</code></li>
+</ul>
+</td>
+</tr>
+</table>
 
 #### Finding Community Layouts
 There are also **Community Layouts**. These are layouts made by (you guessed it) the community on steam. These are searched through steam based on what they are named in the Steam Interface. Sometimes this yields results, but often for me it hasn't.
 
 A couple of people have reported being able to pinpoint the search by changing the shortcut name to the Steam URL listing number:
 
-> [!TIP]
-> **In Desktop mode:**
-> * Open [SteamDB](https://steamdb.info)
-> * Search for your game and click on it's listing.
-> * The number you're looking for will be either in the url after `/app/` or next to **App ID** in on the actual page.
-> * Copy the number (no special characters).
-> * Go to your game listing in the Steam app.
-> * Click the gear to the right of the **Play** button.
-> * Click **Properties**.
-> * Change the title to the number you copied
-> * Close the settings
-> * Click on the Controller Icon next to the Gear Icon, click on the Layout Selector (above **View Layout** and **Edit Layout**)
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>In Desktop mode:</strong>
+<ul>
+    <li>Open <a href="https://steamdb.info">SteamDB</a></li>
+    <li>Search for your game and click on it's listing.</li>
+    <li>The number you're looking for will be either in the url after <code>/app/</code> or next to <strong>App ID</strong> in on the actual page.</li>
+    <li>Copy the number (no special characters).</li>
+    <li>Go to your game listing in the Steam app.</li>
+    <li>Click the gear to the right of the <strong>Play</strong> button.</li>
+    <li>Click <strong>Properties</strong>.</li>
+    <li>Change the title to the number you copied</li>
+    <li>Close the settings</li>
+    <li>Click on the Controller Icon next to the Gear Icon, click on the Layout Selector (above <strong>View Layout</strong> and <strong>Edit Layout</strong>)</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ### Game opens steam
 Either your crack isnt applied properly or you need to change the number in `steamapp_id.txt` to `1` in the game folder.
@@ -695,11 +933,18 @@ Either your crack isnt applied properly or you need to change the number in `ste
 If this shows it means your crack isn't working. Make sure you copied the files over properly, and that you have pointed to all of the relevent DLLs and dependencies.
 
 ### Games suddenly won't open or close
-> [!TIP]
-> More often than not, this is related to a plugin running in Decky. To verify this:
-> * Disable Decky and test your game
-> * Uninstall your plugins one by one, and see what changes it.
-> * Uninstall them all, and add them back one by one until you see the error happen again.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<p>More often than not, this is related to a plugin running in Decky. To verify this:</p>
+<ul>
+    <li>Disable Decky and test your game</li>
+    <li>Uninstall your plugins one by one, and see what changes it.</li>
+    <li>Uninstall them all, and add them back one by one until you see the error happen again.</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ### Game tries to load and immediately stops
 
@@ -715,7 +960,7 @@ If this shows it means your crack isn't working. Make sure you copied the files 
 
 #### Are dependencies installed?
 > [!DANGER]
-> If you are here, then that means you haven't been [here](#installing-dependencies).
+> If you are here, then that means you haven't been <a href="#installing-dependencies">here</a>.
 
 ### Mods won't load
 > [!WARNING]
