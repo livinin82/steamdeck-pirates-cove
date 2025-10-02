@@ -75,26 +75,49 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 #### Part 1: Running the setup.exe
 
 
-**Method 1: Using Wine**
-- Right-click setup.exe and select Wine.
-- Limit the installer to 2GB of RAM.
-- Install to your preferred location for games.
 
-**Method 2: Using Steam Compatibility Tool**
-- Switch your Steam Deck to desktop mode (in the Power settings menu).
-- Locate the downloaded game and the setup.exe file.
-- Right-click on setup.exe and click “Add to Steam”.
-- Open Steam, go to your Library, and click on setup.exe.
-- Go to the Compatibility section and check the box for “Force the use of a specific compatibility tool.”
-- Select Proton Experimental.
-- Create a new folder called Games in `/home/deck/`.
-- Go back to Steam, click on setup.exe, and press Play.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 1: Using Wine</strong>
+<ul>
+    <li>Right-click setup.exe and select Wine.</li>
+    <li>Limit the installer to 2GB of RAM.</li>
+    <li>Install to your preferred location for games.</li>
+</ul>
+</td>
+</tr>
+</table>
 
-**Continued from either method:**
-- Wait for the installation to complete.
-- Once done, check off all the radio boxes in the installer and close it.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Method 2: Using Steam Compatibility Tool</strong>
+<ul>
+    <li>Switch your Steam Deck to desktop mode (in the Power settings menu).</li>
+    <li>Locate the downloaded game and the setup.exe file.</li>
+    <li>Right-click on setup.exe and click “Add to Steam”.</li>
+    <li>Open Steam, go to your Library, and click on setup.exe.</li>
+    <li>Go to the Compatibility section and check the box for “Force the use of a specific compatibility tool.”</li>
+    <li>Select Proton Experimental.</li>
+    <li>Create a new folder called Games in <code>/home/deck/</code>.</li>
+    <li>Go back to Steam, click on setup.exe, and press Play.</li>
+</ul>
+</td>
+</tr>
+</table>
 
-Wait for the installation to complete. Once done, check off all the radio boxes in the installer and close it.
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Continued from either method:</strong>
+<ul>
+    <li>Wait for the installation to complete.</li>
+    <li>Once done, check off all the radio boxes in the installer and close it.</li>
+</ul>
+</td>
+</tr>
+</table>
 
 **Note:** FG repacks default to the D drive, and DoDi repacks default to the C drive.
 
