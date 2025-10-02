@@ -88,7 +88,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ##### Part 1: Running the setup.exe
 
-> [\!TIP]
+>    !!! note ""
 > **Method 1: Using Wine**
 >
 >   * Right-click setup.exe and select Wine.
