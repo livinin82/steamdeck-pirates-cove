@@ -94,7 +94,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Limit the installer to 2GB of RAM.
 >   * Install to your preferred location for games.
 
-> [\!TIP] **Method 2: Using Steam Compatibility Tool**
+> **Method 2: Using Steam Compatibility Tool**
 >
 >   * Switch your Steam Deck to desktop mode (in the Power settings menu).
 >   * Locate the downloaded game and the `setup.exe` file.
@@ -106,7 +106,6 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Open Dolphin File Explorer and go to `/home/deck/`. In this path, create a new folder called `Games`.
 >   * Go back to Steam, click on `setup.exe`, and press Play.
 
-> [\!TIP]
 > **Continued from either method:**
 >
 >   * Wait for the installation to complete.
@@ -120,8 +119,6 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > Be patient. Sometimes, it can take a while for the installer to appear.
 
-> [\!TIP]
->
 >   * Once it does, select your preferred language (e.g., English) and click Next.
 >   * Follow the installer steps. Make sure to:
 >       * Set the installation path to the `Games` folder in the Z drive (or your microSD card if installing there).
@@ -135,7 +132,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ##### Part 3: Running the Game
 
-> [\!TIP]
+
 > **Method 1: Using Wine**
 >
 >   * Once the installation is complete, go to the installation folder and locate the game’s `.exe` file (e.g., `game.exe`).
@@ -147,7 +144,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Run the game in Desktop mode to verify it works correctly.
 >   * Once verified, you can rename it in Steam to whatever you prefer, and then switch back to Gaming mode to play.
 
-> [\!TIP]
+
 > **Method 2: Using Steam Compatibility Tool**
 >
 >   * Once the installation is complete, go back to Steam and remove `setup.exe` (right-click \> Manage \> Remove non-Steam game).
@@ -162,7 +159,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >
 >   * If it shows an error or doesn’t run: Either the Proton version is incorrect (try different ones) or there’s a missing dependency. If it's the latter, refer to a dependencies guide (Dependencies Guide).
 
-> [\!TIP]
+
 > **Additional Notes**
 >
 >   * Some downloads may come in `.rar` files. Extract these using an app like PeaZip before proceeding to Step 2.
@@ -187,7 +184,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >
 >   * It's not necessary to install a game using Lutris as described here. But for some (cracked) games it works better or as described below is necessary insofar as you need a different runner for e. g. the installation of FitGirl repacks. So if you have an already installed game, skip steps 6 to 12.
 
-> [\!TIP]
+
 >
 > 1.  Obtain your desired game from a respected source.
 > 2.  Install Lutris and open it.
@@ -232,7 +229,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > This will explain how to set a user password and enable the SSH Daemon Service on your Deck.
 
-> [\!TIP]
+
 >
 > 1.  Push the **STEAM** button on the deck
 > 2.  Go to **Power**
@@ -266,7 +263,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ##### On Your Deck
 
-> [\!TIP]
+
 >
 > 1.  Install **Warpinator** from the **Discover Store**.
 > 2.  Open **Preferences** and click **Connection** then set a unique PIN.
@@ -275,7 +272,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ##### On your PC
 
-> [\!TIP]
+
 >
 > 1.  Download (unofficial) Warpinator from this [github](https://warpinator.com/warpinator-download/). Install it.
 > 2.  Click **Options\>Settings**.
@@ -285,7 +282,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ##### Transferring Files
 
-> [\!TIP]
+
 >
 > 1.  Your Deck should show in the **Available Devices** area. If not, make sure you followed the steps above. Click on it to open it's transfer window.
 > 2.  On Windows you can click the `+` button to add a folder, or the `Browse` button to add a singular file. You can also drag and drop multiple folders/into the window.
@@ -307,7 +304,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > We will be using Filezilla here, as it is available on every OS. Any combination of FTP clients should work, as FTP is a protocol that is being utilized by all of the apps that offer it. There should be almost no difference.
 
-> [\!TIP]
+
 >
 > 1.  Download **[Filezilla](https://filezilla-project.org/)** on both devices.
 > 2.  Find your IP address on your Deck by going to **Settings \> Internet** in either **Game Mode** or **Big Picture** in **Desktop Mode**
@@ -336,7 +333,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >
 >   * This only works for games added to steam already as a non steam game. This means you need to enable proton on the game and try to run it once so it can set up a prefix for it.
 
-> [\!TIP]
+
 >
 >   * Open **ProtonTricks**.
 >   * In the list of games find the title you gave your game in Steam itself.
@@ -373,7 +370,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > In the event that a game does not come with it's dependencies in the folder or you are not sure which they need, Steam actually has a database dedicated to every iteration of every game they have. Being the awesome company they are, they have a dedicated log of all things required through the history of a games life cycle on their server. This includes everything from prices up to dependencies, updates and DLC. In this instance, we're going to show you where to go on their database to get the info you need.
 
-> [\!TIP]
+
 > **Steam Database**
 >
 >   * Find your game on [SteamDB](https://steamdb.info) by searching it by title.
@@ -415,7 +412,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 #### Installing with ProtonTricks
 
-> [\!TIP]
+
 > **Method 1**
 >
 >   * Click ok on the first screen with the radio button highlighted create new/default prefix
@@ -425,7 +422,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * Hit Ok at the bottom when you have finished
 >   * Verify they installed by going back to the Uninstall menu and at the bottom is will show all that is installed in the Wine Prefix
 
-> [\!TIP]
+
 > **Method 2**
 >
 > 1.  **Open Protontricks:** Launch Protontricks from your applications menu.
@@ -450,7 +447,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 >   * This method is useful for when you find a `Redist` folder or similar in the copy you downloaded. Some repackers do this.
 >   * Make sure ProtonTricks has access to your drives and SD card through Flatseal.
 
-> [\!TIP]
+
 >
 > 1.  **Open Protontricks:** Launch Protontricks from your applications menu.
 > 2.  **Select the Game:** Protontricks will show a list of games installed on your Deck. Select the game for which you need to install dependencies.
@@ -473,7 +470,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > Steam arguments are entered through the game properties in the `Launch Options` box. These vary by the type of command, here we are going to cover `WINEDLLOVERRIDES`.
 
-> [\!TIP]
+
 >
 > 1.  In **Game Mode/Desktop Mode**, select your game.
 > 2.  Click the **Settings** (gear) icon.
@@ -492,7 +489,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 > [\!NOTE]
 > This method uses ProtonTricks interface to add DLL files to the prefix. This is my preferred method as I can see what is being entered, and not have to worry about typing things properly.
 
-> [\!TIP]
+
 >
 > 1.  Open **ProtonTricks**.
 > 2.  Select your game in the list. Click **OK**.
@@ -527,7 +524,7 @@ EmuDeck is a collection of scripts that allows you to autoconfigure your Steam D
 
 #### Installing EmuDeck
 
-> [\!TIP]
+
 >
 > 1.  If you are using an SD Card, format your SD Card in Game Mode on SteamOS. SD Cards need to be formatted as ext4 (or btrfs) to be compatible with EmuDeck.
 >       * **Skip** this step if you have already formatted your SD Card
@@ -552,7 +549,7 @@ RetroDECK is a [ES-DE Frontend](https://es-de.org/) powered Flatpak all-in-one g
 
 #### Installing RetroDeck
 
-> [\!TIP]
+
 >
 >   * Put the Steam Deck into **Desktop Mode**
 >   * Install **RetroDECK** from **Discover**
@@ -606,7 +603,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 >   * This is not a blanket guide for all situations. This is just for the most common situations. Further tweaking may be needed depending on the game, the patch, or a plethora of other reasons.
 >   * Make sure ProtonTricks has access to your drives and SD card through Flatseal.
 
-> [\!TIP]
+
 >
 > 1.  **Open Protontricks:** Launch Protontricks from your applications menu.
 > 2.  **Select the Game:** Protontricks will show a list of games installed on your Deck. Select the game you intend to modify.
@@ -632,7 +629,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 > [\!NOTE]
 > A lot of games come in what are called *compressed* formats. These are used when a folder or file is too large and you want to shrink them down. Repackers and download sites do this so they can be downloaded faster. Sometimes they come with the file extensions listed above in parentheses, or they may come in something like `.001, .002` or `7z01, .7z02,`, etc. These can be handled using **PeaZip**
 
-> [\!TIP]
+
 >
 > 1.  Install **PeaZip** from the **Discover Store**
 > 2.  Open **PeaZip**
@@ -653,7 +650,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 >   * Some games (even after you extract them) will be in *ISO* format. These are digital disc images. In Windows, opening this would be the same thing as inserting a disc for your game to install from, except it's all digital. These will have a `.iso` extension, and will usually be rather large in size.
 >   * In some cases, this functionality may be built into Dolphin's contect menu by `right-clicking > hovering over Mount/unmount iso image > clicking Mount`. If that option is not present read below.
 
-> [\!TIP]
+
 >
 > 1.  Install **PeaZip**/**PowerISO** from the **Discover Store**
 > 2.  Open **PeaZip**/**PowerISO**
@@ -684,7 +681,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 > [\!NOTE]
 > Most of the apps you are using will be installed in a package format named **Flatpak**. **Lutris** and **ProtonTricks** especially. These apps can be controlled by an app called **FlatSeal**. Here we will show you how to enable permissions for an app to see your other devices.
 
-> [\!TIP]
+
 >
 >   * Install **FlatSeal** from the **Discover Store**
 >   * Open **FlatSeal**
@@ -709,7 +706,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 >
 >   * There is also a cool app that is recommended called **[Shortix](https://github.com/Jannomag/shortix)**. Shortix creates user readable symlinks for Proton game prefixes. Once it is installed, you will have a folder created that provides shortcuts to your proton folders. All of the info is in that link and should kind of make things a little easier in the process of finding your mods, game saves, etc. If you'd like a manual method to find the folders, I have written a guide below.
 
-> [\!TIP]
+
 >
 >   * Use the website [PCGamingWiki](https://www.pcgamingwiki.com/wiki/Home) to find the save path location.
 >   * Refer to our [Finding Non-Steam Game Proton Folder](https://www.google.com/search?q=%23finding-non-steam-game-proton-folder) section.
@@ -733,7 +730,7 @@ Some of the games you want to emulate may have PC ports. Always check to see wha
 
 In most cases you can disable Steam Input in the Game Menu and that alone should solve the issue.
 
-> [\!TIP]
+
 > **In Desktop Mode:**
 >
 >   * Select your game in Steam
@@ -749,7 +746,7 @@ There are also **Community Layouts**. These are layouts made by (you guessed it)
 
 A couple of people have reported being able to pinpoint the search by changing the shortcut name to the Steam URL listing number:
 
-> [\!TIP]
+
 > **In Desktop mode:**
 >
 >   * Open [SteamDB](https://steamdb.info)
@@ -773,7 +770,7 @@ If this shows it means your crack isn't working. Make sure you copied the files 
 
 ### Games suddenly won't open or close
 
-> [\!TIP]
+
 > More often than not, this is related to a plugin running in Decky. To verify this:
 >
 >   * Disable Decky and test your game
@@ -802,7 +799,7 @@ If this shows it means your crack isn't working. Make sure you copied the files 
 > [\!NOTE]
 > If your mods won't load, it could be a few things:
 
-> [\!TIP]
+
 >
 >   * A lot of times, mods use/alter/interact with DLL files. Try adding them to the prefix per this [section](https://www.google.com/search?q=%23adding-dlls-to-proton).
 >   * In some instances, there is a Linux version of the mod application you're trying to use, be sure to check into the source of the mod loader.
