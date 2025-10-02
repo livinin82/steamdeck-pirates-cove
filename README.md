@@ -30,17 +30,9 @@ Proton is a compatibility layer for Windows games to run on Linux-based operatin
 
 ***There are two different Proton iterations right now:***
 
-# Steam Deck Pirates' Cove — Documentation Landing
+# Steam Deck Pirates' Cove — Guide
 
-This repository's canonical documentation is the long-form guide: `GUIDE.md`.
-
-Housekeeping: temporary preview artifacts and intermediate .bak files created during migration have been cleaned up. If you need the earlier backups, check Git history.
-
-For full instructions, troubleshooting, and the detailed how-tos, please open:
-
-- GUIDE.md — the canonical guide (recommended)
-
-If you'd prefer the shorter README as the single source, I can delete `GUIDE.md` and promote the README instead — but for now I've made `GUIDE.md` the canonical document and kept this README intentionally minimal so the project landing is clear.
+This README is the canonical guide. All instructions and troubleshooting are contained below.
 
 > [!TIP]
 > * Once it does, select your preferred language (e.g., English) and click Next.
@@ -57,31 +49,31 @@ If you'd prefer the shorter README as the single source, I can delete `GUIDE.md`
 ##### Part 3: Running the Game
 
 > [!TIP]
-> **Method 1: Using Wine**
+> **Method 1 (Using Wine)**
 >
 >   * Once the installation is complete, go to the installation folder and locate the game’s `.exe` file (e.g., `game.exe`).
 >   * Right-click on the `game.exe`, select “Add to Steam” to add it as a non-Steam game.
 >   * Open Steam, find `game.exe`, and go to the Compatibility section.
 >   * Set the compatibility to Proton Experimental.
 >   * Launch the game by pressing Play.
->   * If it shows an error or doesn’t run: Refer to the dependencies guide for help (Dependencies Guide).
+>   * If it shows an error or doesn’t run: refer to the dependencies guide.
 >   * Run the game in Desktop mode to verify it works correctly.
->   * Once verified, you can rename it in Steam to whatever you prefer, and then switch back to Gaming mode to play.
+>   * Once verified, you can rename it in Steam, then switch back to Gaming mode.
 
 > [!TIP]
-> **Method 2: Using Steam Compatibility Tool**
+> **Method 2 (Using Steam Compatibility Tool)**
 >
 >   * Once the installation is complete, go back to Steam and remove `setup.exe` (right-click > Manage > Remove non-Steam game).
 >   * Go to the installation folder, find the `game.exe` file, right-click on it, and add it to Steam.
->   * Open Steam, find `game.exe`, and go to the Compatibility section. Repeat steps 5-7 from Part 1 (set the compatibility to Proton Experimental).
+>   * Open Steam, find `game.exe`, and go to the Compatibility section. Repeat steps 5–7 from Method 1 (set Proton Experimental).
 >   * Launch the game by pressing Play.
 >   * Run the game in Desktop mode to make sure it works correctly.
->   * Exit the game. You can rename it in Steam to whatever you prefer (otherwise, it’ll show as `game.exe` in gaming mode).
+>   * Exit the game. You can rename it in Steam (otherwise it’ll show as `game.exe`).
 >   * Switch back to Gaming mode and enjoy your game!
 
 > [!NOTE]
 >
->   * If it shows an error or doesn’t run: Either the Proton version is incorrect (try different ones) or there’s a missing dependency. If it's the latter, refer to a dependencies guide (Dependencies Guide).
+>   * If it shows an error or doesn’t run: either the Proton version is incorrect (try different ones) or there’s a missing dependency. See the dependencies guide.
 
 > [!TIP]
 > **Additional Notes**
