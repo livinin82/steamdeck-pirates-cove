@@ -417,6 +417,49 @@ Below are step-by-step guides for connecting to your Steam Deck via SSH from Lin
 > [!NOTE]
 > If you want to take this a step further and make it REALLY streamlined, add it to your device as a network drive. This will make it an accessible folder in Finder/Explorer. Just drag and drop and call it a day.
 
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Guide: Add Steam Deck Storage as a Network Drive</strong>
+<ol>
+    <li>Ensure SSH is enabled and running on your Steam Deck (see SSH setup above).</li>
+    <li>Find your Steam Deck's IP address (Settings > Internet).</li>
+    <li><strong>Windows:</strong>
+        <ul>
+            <li>Open <strong>File Explorer</strong>.</li>
+            <li>Right-click <strong>This PC</strong> &rarr; <strong>Add a network location</strong>.</li>
+            <li>Choose <strong>Choose a custom network location</strong> &rarr; <strong>Next</strong>.</li>
+            <li>Enter: <code>sftp://deck@&lt;SteamDeck_IP&gt;:/home/deck</code></li>
+            <li>Enter your Deck password when prompted.</li>
+            <li>Your Deck's home folder will appear as a network drive in File Explorer.</li>
+        </ul>
+    </li>
+    <li><strong>Mac:</strong>
+        <ul>
+            <li>Open <strong>Finder</strong>.</li>
+            <li>Click <strong>Go</strong> &rarr; <strong>Connect to Server...</strong></li>
+            <li>Enter: <code>sftp://deck@&lt;SteamDeck_IP&gt;/home/deck</code></li>
+            <li>Click <strong>Connect</strong> and enter your password.</li>
+            <li>Your Deck's home folder will mount as a network drive in Finder.</li>
+        </ul>
+    </li>
+    <li><strong>Linux:</strong>
+        <ul>
+            <li>Open your file manager (e.g., Nautilus, Dolphin, Thunar).</li>
+            <li>Look for a <strong>Connect to Server</strong> or <strong>Network</strong> option.</li>
+            <li>Enter: <code>sftp://deck@&lt;SteamDeck_IP&gt;/home/deck</code></li>
+            <li>Enter your Deck password when prompted.</li>
+            <li>Your Deck's home folder will appear as a network location in your file manager.</li>
+        </ul>
+    </li>
+    <li>For SD card access, navigate to <code>/run/media/mmcblk0p1</code> after connecting.</li>
+    <li>You can now drag and drop files between your PC/Mac/Linux and Steam Deck as if it were a local folder.</li>
+    <li>If you have trouble, use a graphical SFTP client like <strong>WinSCP</strong>, <strong>Cyberduck</strong>, or <strong>FileZilla</strong> with the same connection details.</li>
+</ol>
+</td>
+</tr>
+</table>
+
 #### Windows (10/11)
 
 #### Warpinator (Still Network, Needs an App)
