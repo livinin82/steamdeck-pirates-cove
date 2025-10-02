@@ -1,48 +1,26 @@
-# 🏴‍☠️ Steam Deck Pirates' Cove
+# Steam Deck Pirates' Cove
 
-> A comprehensive guide for Steam Deck gaming, emulation, and troubleshooting.
-
-## 📋 Table of Contents
-
-- [Steam Deck Basics](#steam-deck-basics)
-  - [Game/Desktop Mode](#gamedesktop-mode) 
-  - [Wine/Proton](#wineproton)
-- [Required Apps](#required-apps)
-  - [ProtonUp-Qt](#protonup-qt)
-  - [Flatseal](#flatseal)
-- [Game Installation](#game-installation)
-  - [Steam](#steam)
-  - [Lutris](#lutris)
-- [File Transfers](#file-transfers)
-  - [SSH](#ssh)
-  - [Warpinator](#warpinator)
-- [Dependency Management](#dependency-management)
-  - [ProtonTricks](#protontricks)
-- [Emulation](#emulation)
-  - [EmuDeck](#emudeck)
-  - [RetroDeck](#retrodeck)
-- [Troubleshooting](#troubleshooting)
+A comprehensive guide for Steam Deck gaming, emulation, and troubleshooting.
 
 ---
 
-## Steam Deck Basics
+# Steam Deck
 
-### Game/Desktop Mode
+## Game/Desktop Mode
 
-- **Switch to Desktop Mode**: Press the `Steam` button → `Power` → `Switch to Desktop`
-- **Return to Game Mode**: Use the `Return to Game Mode` icon on the Desktop
+- To switch to Desktop Mode, press the `Steam` button, go to `Power`, and select `Switch to Desktop`.
+- To return to Game Mode, use the `Return to Game Mode` icon on the Desktop.
 
-### Wine/Proton
+## Wine/Proton
 
-- The Steam Deck uses **Proton** (a fork of Wine) to run Windows games
-- Different games may require different Proton versions
-- Change Proton version: Game `Properties` → `Compatibility` → Select version
+- The Steam Deck uses a compatibility layer called Proton (a fork of Wine) to run Windows games.
+- Different games may require different Proton versions. You can change the Proton version for a specific game in its `Properties` > `Compatibility` settings in Steam.
 
 ---
 
-## 🛠️ Required Apps
+# Required Apps
 
-### ProtonUp-Qt
+## ProtonUp-Qt
 
 - **Installation**: Install `ProtonUp-Qt` from the `Discover` store in Desktop Mode.
 - **Usage**:
@@ -51,7 +29,7 @@
     - Install the latest `GE-Proton`.
     - Restart Steam to see the new `GE-Proton` version in the compatibility list.
 
-### Flatseal
+## Flatseal
 
 - **Installation**: Install `Flatseal` from the `Discover` store.
 - **Usage**:
@@ -64,9 +42,9 @@
 
 ---
 
-## 🎮 Game Installation
+# Game Installation
 
-### Steam
+## Steam
 
 - **Method**:
     1. Go to the game's `Properties` > `Compatibility`.
@@ -74,7 +52,7 @@
     3. Select a `Proton` version.
 - **Note**: If a game doesn't work, try a different Proton version, especially `GE-Proton`.
 
-### Lutris
+## Lutris
 
 - **Installation**:
     1. Install `Lutris` from the `Discover` store.
@@ -96,9 +74,9 @@
 
 ---
 
-## 📁 File Transfers
+# File Transfers
 
-### SSH
+## SSH
 
 - **Setup**:
     1. In Desktop Mode, open `Konsole`.
@@ -108,7 +86,7 @@
     - Use an SFTP client like `WinSCP` (Windows) or `FileZilla` (cross-platform).
     - Connect to your Steam Deck's IP address (found in `System Settings` > `Network`).
 
-### Warpinator
+## Warpinator
 
 - **Installation**:
     - Install `Warpinator` from the `Discover` store on your Steam Deck.
@@ -120,9 +98,9 @@
 
 ---
 
-## ⚙️ Dependency Management
+# Dependency Management
 
-### ProtonTricks
+## ProtonTricks
 
 - **Installation**: Install `ProtonTricks` from the `Discover` store.
 - **Usage**:
@@ -135,9 +113,9 @@
 
 ---
 
-## 🕹️ Emulation
+# Emulation
 
-### EmuDeck
+## EmuDeck
 
 - **Installation**:
     1. Download the `EmuDeck` installer from their website.
@@ -149,7 +127,7 @@
     - EmuDeck uses `Steam ROM Manager` to add emulated games to your Steam library.
     - Run it, and it will automatically generate artwork and shortcuts.
 
-### RetroDeck
+## RetroDeck
 
 - **Installation**: Install `RetroDeck` from the `Discover` store.
 - **Configuration**:
@@ -161,7 +139,7 @@
 
 ---
 
-## 🔧 Troubleshooting
+# Troubleshooting
 
 - **Game Not Launching**:
     - Try a different Proton version.
