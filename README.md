@@ -23,10 +23,10 @@ Proton is a compatibility layer for Windows games to run on Linux-based operatin
 
 ***There are two different Proton iterations right now:***
 
-##### Steam's Official Proton
+#### Steam's Official Proton
 This is what comes baked into the system more or less. These are selectable by going into the game Properties and clicking the Compatibility tab. From there you'll click the checkbox next to "Force the use of a specific Steam Play compatibility tool". Here you will be able to select any Proton available through steam as well as any others you have installed. Sometimes different games work with different Proton versions. More often than not Proton Experimental is the most up to date and has the best compatibility rate. All games are different, some may not have working sound unless you go to an old version. Mess with this first if you have issues running games.
 
-##### GE-Proton
+#### GE-Proton
 GE Proton (or Glorious Eggroll Proton) is an open source variant of Steams Proton that is user developed and maintained. It usually has faster support for games and also includes additional features and fixes, some which Steam can't include for licensing reasons. It's usually installed through ProtonUpQt, and can be selected the same as any other Proton version once installed, in the compatibility section of any game's properties.
 
 ### Prefixes
@@ -143,7 +143,7 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 
 **Note:** FG repacks default to the D drive, and DoDi repacks default to the C drive.
 
-##### Part 2: Installation
+#### Part 2: Installation
 
 > [!WARNING]
 > Be patient. Sometimes, it can take a while for the installer to appear.
@@ -172,7 +172,7 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 > [!NOTE]
 > Don’t worry if the installation is slow, especially for repacks. This is normal and can take hours depending on game size and compression.
 
-##### Part 3: Running the Game
+#### Part 3: Running the Game
 <table>
 <tr>
 <td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
@@ -287,49 +287,107 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 > [!WARNING]
 > Speeds may vary based on a variety of things including network speed, network hardware, PC hardware, cable vs. WiFi, etc.
 
+
 #### SSH (Network File Sharing)
 
-##### Setting up SSHD
+Below are step-by-step guides for connecting to your Steam Deck via SSH from Linux, Mac, and Windows. Each guide assumes you have already enabled SSHD on your Steam Deck (see below).
+
+---
+
+#### Setting Up SSHD on Steam Deck
 <table>
 <tr>
 <td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
-<strong>This will explain how to set a user password and enable the SSH Daemon Service on your Deck.</strong>
+<strong>Enable SSH Daemon Service on your Deck:</strong>
 <ol>
-    <li>Push the <strong>STEAM</strong> button on the deck</li>
-    <li>Go to <strong>Power</strong></li>
-    <li>Select <strong>Switch to Desktop</strong></li>
-    <li>From Desktop Mode, Click the <strong>Application Launcher</strong> (Steam Deck Icon, bottom left)</li>
-    <li>Go to <strong>All Applications</strong> > <strong>Konsole</strong></li>
-    <li>Run the following command <code>passwd</code></li>
-    <li>Enter a secure password (You will be prompted for this when you connect to the Deck remotely via SSH)</li>
-    <li>Run the following command <code>sudo systemctl enable sshd</code></li>
-    <li>Now run the following command to verify that SSHD is enabled <code>sudo systemctl status sshd</code></li>
-    <li>In the output look for <code>enabled;</code> on the <code>Loaded:</code> line</li>
-    <li>Look for <code>running</code> on the <code>Active:</code> line</li>
-    <li>If all steps were followed SSH should be enabled, if not <em>ASK AN ADULT</em></li>
+    <li>Switch to Desktop Mode (<strong>STEAM</strong> button > <strong>Power</strong> > <strong>Switch to Desktop</strong>).</li>
+    <li>Open <strong>Konsole</strong> from <strong>All Applications</strong>.</li>
+    <li>Set a password for your user: <code>passwd</code></li>
+    <li>Enable SSHD: <code>sudo systemctl enable sshd</code></li>
+    <li>Start SSHD: <code>sudo systemctl start sshd</code></li>
+    <li>Check status: <code>sudo systemctl status sshd</code> (look for <code>enabled</code> and <code>running</code>).</li>
 </ol>
 </td>
 </tr>
 </table>
 
-*from [GitHub](https://github.com/Matalus/steamdeck-tips/blob/main/wiki/ssh.md)*
+>*from [GitHub](https://github.com/Matalus/steamdeck-tips/blob/main/wiki/ssh.md)*
 
 > [!CAUTION]
 > The password set in this tutorial will be your password across all Deck operations. Remember it!!
 
-##### Adding your deck storage as a drive on your PC or Mac
+---
+
+#### SSH Connection Guide: Linux
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Connect to Steam Deck from Linux:</strong>
+<ol>
+    <li>Open a terminal window.</li>
+    <li>Find your Steam Deck's IP address (Settings > Internet).</li>
+    <li>Connect using SSH:
+        <pre><code>ssh deck@<SteamDeck_IP></code></pre>
+    </li>
+    <li>Enter your password when prompted.</li>
+    <li>You now have terminal access to your Steam Deck.</li>
+</ol>
+</td>
+</tr>
+</table>
+
+---
+
+#### SSH Connection Guide: Mac
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Connect to Steam Deck from Mac:</strong>
+<ol>
+    <li>Open the <strong>Terminal</strong> app (Applications > Utilities > Terminal).</li>
+    <li>Find your Steam Deck's IP address (Settings > Internet).</li>
+    <li>Connect using SSH:
+        <pre><code>ssh deck@<SteamDeck_IP></code></pre>
+    </li>
+    <li>Enter your password when prompted.</li>
+    <li>You now have terminal access to your Steam Deck.</li>
+</ol>
+</td>
+</tr>
+</table>
+
+---
+
+#### SSH Connection Guide: Windows
+<table>
+<tr>
+<td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
+<strong>Connect to Steam Deck from Windows:</strong>
+<ol>
+    <li>Download and install <strong>PuTTY</strong> (or use Windows Terminal/PowerShell if OpenSSH is installed).</li>
+    <li>Find your Steam Deck's IP address (Settings > Internet).</li>
+    <li>Open PuTTY and enter <code>deck@<SteamDeck_IP></code> as the Host Name.</li>
+    <li>Set Port to <code>22</code> and Connection Type to <code>SSH</code>.</li>
+    <li>Click <strong>Open</strong> and enter your password when prompted.</li>
+    <li>You now have terminal access to your Steam Deck.</li>
+</ol>
+</td>
+</tr>
+</table>
+
+#### Adding Your Deck Storage as a Drive on Your PC or Mac
 
 > [!NOTE]
 > If you want to take this a step further and make it REALLY streamlined, add it to your device as a network drive. This will make it an accessible folder in Finder/Explorer. Just drag and drop and call it a day.
 
-###### Windows (10/11)
+#### Windows (10/11)
 
 #### Warpinator (Still Network, Needs an App)
 
 > [!NOTE]
 > Warpinator is an app available for Windows, and Linux that makes a direct tunnel between your two devices. This is by far the highest speed option outside of SSH. This method requires the application to be running on your Steam Deck and your other device at the same time.
 
-##### On Your Deck
+#### On Your Deck
 <table>
 <tr>
 <td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
@@ -344,7 +402,7 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 </tr>
 </table>
 
-##### On your PC
+#### On Your PC
 <table>
 <tr>
 <td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
@@ -359,7 +417,7 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 </tr>
 </table>
 
-##### Transferring Files
+#### Transferring Files
 <table>
 <tr>
 <td bgcolor="#E3F2FD" width="100%" style="padding:15px; border-radius:5px;">
@@ -487,11 +545,11 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 > [!CAUTION]
 > If it wasn't explicitly clear in the previous note, do not download these from places other than the Microsoft site or Wine/ProtonTricks. While they may not mess your Steam Deck up due to it being Linux, it's just good practice to not download official and freely available things that can harm your system from shady places or people. Repackers issue the same stuff and probably get them from Microsoft themselves. Just save yourself the trouble.
 
-##### DirectX
+#### DirectX
 - [DirectX 9 (2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 - [DirectX 10/11](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 
-##### VC Runtime Redist
+#### VC Runtime Redist
 - [VC Redist 2005](https://www.microsoft.com/en-us/download/details.aspx?id=26347)
 - [VC Redist 2008](https://www.microsoft.com/en-us/download/details.aspx?id=26368)
 - [VC Redist 2010](https://www.microsoft.com/en-us/download/details.aspx?id=26999)
@@ -499,10 +557,10 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 - [VC Redist 2013](https://support.microsoft.com/en-us/topic/update-for-visual-c-2013-redistributable-package-d8ccd6a5-4e26-c290-517b-8da6cfdf4f10) (Choose English)
 - [VC Redist - All](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-##### .NET Framework
+#### .NET Framework
 - [All](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
 
-##### Physx
+#### Physx
 - [NVIDIA Site](https://www.nvidia.com/en-us/drivers/physx/physx-9-19-0218-driver/)
 
 #### Installing with ProtonTricks
