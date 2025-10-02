@@ -1,6 +1,6 @@
 -----
 
-# 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️
+<p style="text-align: center;"># 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️</p>
 
 -----
 
