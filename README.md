@@ -1,4 +1,7 @@
+
+<div align="center">
 # 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️
+</div>
 
 ### Table of Contents
 
@@ -274,7 +277,10 @@ If your game is already in a preinstalled state, skip to **Part 3**.
 > [!NOTE]
 > While we highly recommend using Lutris, there may be situations where you have to use another launcher. This section has links to guides that will help with them.
 
-<a href="https://docs.usebottles.com/"><img src="https://cdn2.steamgriddb.com/logo_thumb/b6971181414fe808396c6883eb262e8d.png" alt="Bottles" width="125"></a> <a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck"><img src="https://cdn2.steamgriddb.com/icon_thumb/9f73f765160d33280216b73b6378c068.png" alt="Heroic" width="150"></a>
+<div align="center">
+<a href="https://docs.usebottles.com/"><img src="https://cdn2.steamgriddb.com/logo_thumb/b6971181414fe808396c6883eb262e8d.png" alt="Bottles" width="125"></a>
+<a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/wiki/Steam-Deck"><img src="https://cdn2.steamgriddb.com/icon_thumb/9f73f765160d33280216b73b6378c068.png" alt="Heroic" width="150"></a>
+</div>
 
 ### Transferring Installed Games from PC
 
