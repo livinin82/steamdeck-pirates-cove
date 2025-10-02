@@ -1,3 +1,50 @@
+## Guides for installing games
+
+
+```mermaid
+graph TD
+    subgraph Starting Point
+        A[Source Game]
+    end
+
+    subgraph Path 1: Install on PC
+        B["Install Game on PC"]
+    end
+    
+    subgraph Path 2: Pre-Installed
+        C["Pre-installed Game"]
+    end
+
+    subgraph Path 3: Install on Deck
+        D["Install Game on SteamDeck"]
+    end
+    
+    A --> B
+    A --> C
+    A --> D
+    
+    B --> E["Transfer to Steam Deck"]
+    C --> E
+    
+    E --> F["Add Non-Steam Game"]
+    D --> F
+    
+    F --> G{"Set up Windows Environment"}
+    
+    G -- SteamOS --> H["Configure with ProtonTricks"]
+    G -- Lutris --> Z((Play Game))
+    
+    H --> Z
+```
+
+<strong>Continued from either method:</strong>
+<ul>
+    <li>Wait for the installation to complete.</li>
+    <li>Once done, check off all the radio boxes in the installer and close it.</li>
+</ul>
+
+### Installing games through Lutris
+...existing code...
 # 🏴‍☠️ Steam Deck Pirates' Cove 🏴‍☠️
 
 
