@@ -63,7 +63,42 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ## Guides for installing games
 
-![Install Flowchart](https://i.imgur.com/aNPBFdF.png)
+
+```mermaid
+graph TD
+    subgraph Starting Point
+        A[Source Game]
+    end
+
+    subgraph Path 1: Install on PC
+        B["Install Game on PC"]
+    end
+    
+    subgraph Path 2: Pre-Installed
+        C["Pre-installed Game"]
+    end
+
+    subgraph Path 3: Install on Deck
+        D["Install Game on SteamDeck"]
+    end
+    
+    A --> B
+    A --> C
+    A --> D
+    
+    B --> E["Transfer to Steam Deck"]
+    C --> E
+    
+    E --> F["Add Non-Steam Game"]
+    D --> F
+    
+    F --> G{"Set up Windows Environment"}
+    
+    G -- SteamOS --> H["Configure with ProtonTricks"]
+    G -- Lutris --> Z((Play Game))
+    
+    H --> Z
+```
 
 #### Installing games through Steam
 
