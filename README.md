@@ -63,6 +63,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ## Guides for installing games
 
+``` mermaid
 graph TD
     subgraph Starting Point
         A[Source Game]
@@ -96,7 +97,7 @@ graph TD
     G -- Lutris --> Z((Play Game))
     
     H --> Z
-
+```
 #### Installing games through Steam
 
 > [!NOTE]
