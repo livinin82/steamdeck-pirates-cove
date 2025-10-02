@@ -88,8 +88,7 @@ Launchers are apps built for Linux that allow you to play games from other Launc
 
 ##### Part 1: Running the setup.exe
 
->    !!! note ""
-> **Method 1: Using Wine**
+>```{admonition} **Method 1: Using Wine**
 >
 >   * Right-click setup.exe and select Wine.
 >   * Limit the installer to 2GB of RAM.
